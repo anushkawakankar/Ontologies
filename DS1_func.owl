@@ -1,0 +1,330 @@
+Prefix(:=<http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1>
+
+Declaration(Class(:OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73))
+Declaration(Class(:OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1))
+Declaration(Class(:OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2))
+Declaration(Class(:OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98))
+Declaration(Class(:OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8))
+Declaration(Class(:OWLClass_16f7b712_72cd_4077_b491_3560f1d66238))
+Declaration(Class(:OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116))
+Declaration(Class(:OWLClass_2242063b_0417_45ff_8883_c0326f231ab2))
+Declaration(Class(:OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428))
+Declaration(Class(:OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5))
+Declaration(Class(:OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa))
+Declaration(Class(:OWLClass_31db7858_1ccc_4e16_be44_df2616358469))
+Declaration(Class(:OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b))
+Declaration(Class(:OWLClass_3f8fd318_eccb_4802_a666_453264e990eb))
+Declaration(Class(:OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1))
+Declaration(Class(:OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece))
+Declaration(Class(:OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49))
+Declaration(Class(:OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40))
+Declaration(Class(:OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465))
+Declaration(Class(:OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8))
+Declaration(Class(:OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40))
+Declaration(Class(:OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69))
+Declaration(Class(:OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e))
+Declaration(Class(:OWLClass_6b9b7943_d422_4697_bba7_90e118e40142))
+Declaration(Class(:OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff))
+Declaration(Class(:OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8))
+Declaration(Class(:OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece))
+Declaration(Class(:OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd))
+Declaration(Class(:OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76))
+Declaration(Class(:OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3))
+Declaration(Class(:OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5))
+Declaration(Class(:OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109))
+Declaration(Class(:OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30))
+Declaration(Class(:OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc))
+Declaration(Class(:OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235))
+Declaration(Class(:OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0))
+Declaration(Class(:OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63))
+Declaration(Class(:OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4))
+Declaration(Class(:OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2))
+Declaration(Class(:OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b))
+Declaration(Class(:OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392))
+Declaration(Class(:OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2))
+Declaration(Class(:OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617))
+Declaration(Class(:OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817))
+Declaration(Class(:OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d))
+Declaration(Class(:OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71))
+Declaration(Class(:OWLClass_da151f97_c084_4665_9dc4_3658b45754db))
+Declaration(Class(:OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b))
+Declaration(Class(:OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31))
+Declaration(Class(:OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f))
+Declaration(AnnotationProperty(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent>))
+
+
+############################
+#   Classes
+############################
+
+# Class: :OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73 (:OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73 "BFS_tree"@en)
+SubClassOf(:OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73 :OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8)
+
+# Class: :OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1 (:OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1 "1D_array"@en)
+SubClassOf(:OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1 :OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d)
+
+# Class: :OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2 (:OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2 "Traversal_tree"@en)
+SubClassOf(:OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2 :OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8)
+
+# Class: :OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98 (:OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98 "SpanningTree_graph"@en)
+SubClassOf(:OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98 :OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5)
+
+# Class: :OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8 (:OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8 "Tree_algorithms"@en)
+SubClassOf(:OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8 :OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff)
+
+# Class: :OWLClass_16f7b712_72cd_4077_b491_3560f1d66238 (:OWLClass_16f7b712_72cd_4077_b491_3560f1d66238)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_16f7b712_72cd_4077_b491_3560f1d66238 "ND_array"@en)
+SubClassOf(:OWLClass_16f7b712_72cd_4077_b491_3560f1d66238 :OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d)
+
+# Class: :OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116 (:OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116 "Bubble_sort"@en)
+SubClassOf(:OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116 :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2)
+
+# Class: :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2 (:OWLClass_2242063b_0417_45ff_8883_c0326f231ab2)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2 "Sorting_algorithms"@en)
+SubClassOf(:OWLClass_2242063b_0417_45ff_8883_c0326f231ab2 :OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff)
+
+# Class: :OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428 (:OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428 "Heap_sort"@en)
+SubClassOf(:OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428 :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2)
+
+# Class: :OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5 (:OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5 "Graph_algorithms"@en)
+SubClassOf(:OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5 :OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff)
+
+# Class: :OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa (:OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa "Heap_nonlinear"@en)
+SubClassOf(:OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa :OWLClass_31db7858_1ccc_4e16_be44_df2616358469)
+
+# Class: :OWLClass_31db7858_1ccc_4e16_be44_df2616358469 (:OWLClass_31db7858_1ccc_4e16_be44_df2616358469)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_31db7858_1ccc_4e16_be44_df2616358469 "NonLinear_structure"@en)
+SubClassOf(:OWLClass_31db7858_1ccc_4e16_be44_df2616358469 :OWLClass_da151f97_c084_4665_9dc4_3658b45754db)
+DisjointClasses(:OWLClass_31db7858_1ccc_4e16_be44_df2616358469 :OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235)
+
+# Class: :OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b (:OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b "Searching_algorithms"@en)
+SubClassOf(:OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b :OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff)
+
+# Class: :OWLClass_3f8fd318_eccb_4802_a666_453264e990eb (:OWLClass_3f8fd318_eccb_4802_a666_453264e990eb)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_3f8fd318_eccb_4802_a666_453264e990eb "Prims_ST"@en)
+SubClassOf(:OWLClass_3f8fd318_eccb_4802_a666_453264e990eb :OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98)
+DisjointClasses(:OWLClass_3f8fd318_eccb_4802_a666_453264e990eb :OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc)
+
+# Class: :OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1 (:OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1 "Binary_search"@en)
+SubClassOf(:OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1 :OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b)
+DisjointClasses(:OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1 :OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f)
+
+# Class: :OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece (:OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece "BFS_graph"@en)
+SubClassOf(:OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece :OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5)
+
+# Class: :OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49 (:OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49 "Queue_linear"@en)
+SubClassOf(:OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49 :OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235)
+
+# Class: :OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40 (:OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40 "Doubly_linkedlist"@en)
+SubClassOf(:OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40 :OWLClass_6b9b7943_d422_4697_bba7_90e118e40142)
+
+# Class: :OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465 (:OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465 "Singly_linkedlist"@en)
+SubClassOf(:OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465 :OWLClass_6b9b7943_d422_4697_bba7_90e118e40142)
+
+# Class: :OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8 (:OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8 "BST_tree"@en)
+SubClassOf(:OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8 :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31)
+
+# Class: :OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40 (:OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40 "Graph_nonlinear"@en)
+SubClassOf(:OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40 :OWLClass_31db7858_1ccc_4e16_be44_df2616358469)
+
+# Class: :OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69 (:OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69 "2D_array"@en)
+SubClassOf(:OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69 :OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d)
+
+# Class: :OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e (:OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e "Trie_nonlinear"@en)
+SubClassOf(:OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e :OWLClass_31db7858_1ccc_4e16_be44_df2616358469)
+
+# Class: :OWLClass_6b9b7943_d422_4697_bba7_90e118e40142 (:OWLClass_6b9b7943_d422_4697_bba7_90e118e40142)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_6b9b7943_d422_4697_bba7_90e118e40142 "LinkedList_linear"@en)
+SubClassOf(:OWLClass_6b9b7943_d422_4697_bba7_90e118e40142 :OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235)
+
+# Class: :OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff (:OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff "Algorithms"@en)
+SubClassOf(:OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff :OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2)
+DisjointClasses(:OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff :OWLClass_da151f97_c084_4665_9dc4_3658b45754db)
+
+# Class: :OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8 (:OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8 "Bplus_tree"@en)
+SubClassOf(:OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8 :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31)
+
+# Class: :OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece (:OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece "Domain_entity"@en)
+
+# Class: :OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd (:OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd "Binary_tree"@en)
+SubClassOf(:OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31)
+
+# Class: :OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76 (:OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76 "Circular_linkedlist"@en)
+SubClassOf(:OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76 :OWLClass_6b9b7943_d422_4697_bba7_90e118e40142)
+
+# Class: :OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3 (:OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3 "DFS_tree"@en)
+SubClassOf(:OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3 :OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8)
+
+# Class: :OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5 (:OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5 "Value"@en)
+
+# Class: :OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109 (:OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109 "Deletion_tree"@en)
+SubClassOf(:OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109 :OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8)
+
+# Class: :OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30 (:OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30 "DFS_graph"@en)
+SubClassOf(:OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30 :OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5)
+
+# Class: :OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc (:OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc "Kruskals_ST"@en)
+SubClassOf(:OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc :OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98)
+
+# Class: :OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235 (:OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235 "Linear_structure"@en)
+SubClassOf(:OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235 :OWLClass_da151f97_c084_4665_9dc4_3658b45754db)
+
+# Class: :OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0 (:OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0 "Merge_sort"@en)
+SubClassOf(:OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0 :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2)
+
+# Class: :OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63 (:OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63 "Rotation_tree"@en)
+SubClassOf(:OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63 :OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8)
+
+# Class: :OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4 (:OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4 "RedBlack_tree"@en)
+SubClassOf(:OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4 :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31)
+
+# Class: :OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2 (:OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2 "B_tree"@en)
+SubClassOf(:OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2 :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31)
+
+# Class: :OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b (:OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b "Stack_linear"@en)
+SubClassOf(:OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b :OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235)
+
+# Class: :OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392 (:OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392 "AVL_tree"@en)
+SubClassOf(:OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392 :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31)
+
+# Class: :OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2 (:OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2 "Independent_entity"@en)
+
+# Class: :OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617 (:OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617 "Selection_sort"@en)
+SubClassOf(:OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617 :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2)
+
+# Class: :OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817 (:OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817 "Quick_sort"@en)
+SubClassOf(:OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817 :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2)
+
+# Class: :OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d (:OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d "Array_linear"@en)
+SubClassOf(:OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d :OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235)
+
+# Class: :OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71 (:OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71 "Insertion_tree"@en)
+SubClassOf(:OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71 :OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8)
+
+# Class: :OWLClass_da151f97_c084_4665_9dc4_3658b45754db (:OWLClass_da151f97_c084_4665_9dc4_3658b45754db)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_da151f97_c084_4665_9dc4_3658b45754db "Structures"@en)
+SubClassOf(:OWLClass_da151f97_c084_4665_9dc4_3658b45754db :OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2)
+
+# Class: :OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b (:OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b "Bucket_sort"@en)
+SubClassOf(:OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2)
+
+# Class: :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31 (:OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31 "Tree_nonlinear"@en)
+SubClassOf(:OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31 :OWLClass_31db7858_1ccc_4e16_be44_df2616358469)
+
+# Class: :OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f (:OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f)
+
+AnnotationAssertion(<http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent> :OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f "Linear_search"@en)
+SubClassOf(:OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f :OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b)
+
+
+DisjointClasses(:OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73 :OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2 :OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3 :OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109 :OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63 :OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71)
+DisjointClasses(:OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1 :OWLClass_16f7b712_72cd_4077_b491_3560f1d66238 :OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69)
+DisjointClasses(:OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98 :OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece :OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30)
+DisjointClasses(:OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8 :OWLClass_2242063b_0417_45ff_8883_c0326f231ab2 :OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5 :OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b)
+DisjointClasses(:OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116 :OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428 :OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0 :OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617 :OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817 :OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b)
+DisjointClasses(:OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa :OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40 :OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e :OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31)
+DisjointClasses(:OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49 :OWLClass_6b9b7943_d422_4697_bba7_90e118e40142 :OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b :OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d)
+DisjointClasses(:OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40 :OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465 :OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76)
+DisjointClasses(:OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8 :OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8 :OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd :OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4 :OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2 :OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392)
+DisjointClasses(:OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece :OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5 :OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2)
+)

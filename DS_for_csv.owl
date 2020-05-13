@@ -1,0 +1,647 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1"
+     xml:base="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1"
+     xmlns:cso="http://cso.kmi.open.ac.uk/schema/cso#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Data-Structures-1="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent -->
+
+    <owl:AnnotationProperty rdf:about="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe">
+        <cso:preferentialEquivalent xml:lang="en">madeUsing</cso:preferentialEquivalent>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a">
+        <cso:preferentialEquivalent xml:lang="en">relatedTo</cso:preferentialEquivalent>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+        <cso:preferentialEquivalent xml:lang="en">BFS_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+        <cso:preferentialEquivalent xml:lang="en">1D_array</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+        <cso:preferentialEquivalent xml:lang="en">Traversal_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+        <cso:preferentialEquivalent xml:lang="en">SpanningTree_graph</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+        <cso:preferentialEquivalent xml:lang="en">Tree_algorithms</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_16f7b712_72cd_4077_b491_3560f1d66238 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_16f7b712_72cd_4077_b491_3560f1d66238">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+        <cso:preferentialEquivalent xml:lang="en">ND_array</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+        <cso:preferentialEquivalent xml:lang="en">Bubble_sort</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+        <cso:preferentialEquivalent xml:lang="en">Sorting_algorithms</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+        <cso:preferentialEquivalent xml:lang="en">Heap_sort</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+        <cso:preferentialEquivalent xml:lang="en">Graph_algorithms</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2872f5ab_e655_4b26_b1b2_edc3e531af16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2872f5ab_e655_4b26_b1b2_edc3e531af16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <cso:preferentialEquivalent xml:lang="en">Suffix_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+        <cso:preferentialEquivalent xml:lang="en">Heap_nonlinear</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_31db7858_1ccc_4e16_be44_df2616358469 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_31db7858_1ccc_4e16_be44_df2616358469">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_da151f97_c084_4665_9dc4_3658b45754db"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+        <cso:preferentialEquivalent xml:lang="en">NonLinear_structure</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+        <cso:preferentialEquivalent xml:lang="en">Searching_algorithms</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_3f8fd318_eccb_4802_a666_453264e990eb -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_3f8fd318_eccb_4802_a666_453264e990eb">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc"/>
+        <cso:preferentialEquivalent xml:lang="en">Prims_ST</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f"/>
+        <cso:preferentialEquivalent xml:lang="en">Binary_search</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+        <cso:preferentialEquivalent xml:lang="en">BFS_graph</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+        <cso:preferentialEquivalent xml:lang="en">Queue_linear</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+        <Data-Structures-1:OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+        <cso:preferentialEquivalent xml:lang="en">Doubly_linkedlist</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+        <cso:preferentialEquivalent xml:lang="en">Singly_linkedlist</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <cso:preferentialEquivalent xml:lang="en">BST_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+        <cso:preferentialEquivalent xml:lang="en">Graph_nonlinear</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+        <cso:preferentialEquivalent xml:lang="en">2D_array</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+        <cso:preferentialEquivalent xml:lang="en">Trie_nonlinear</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+        <cso:preferentialEquivalent xml:lang="en">LinkedList_linear</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_da151f97_c084_4665_9dc4_3658b45754db"/>
+        <cso:preferentialEquivalent xml:lang="en">Algorithms</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <cso:preferentialEquivalent xml:lang="en">Bplus_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece">
+        <cso:preferentialEquivalent xml:lang="en">Domain_entity</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <cso:preferentialEquivalent xml:lang="en">Binary_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+        <cso:preferentialEquivalent xml:lang="en">Circular_linkedlist</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+        <cso:preferentialEquivalent xml:lang="en">DFS_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5">
+        <cso:preferentialEquivalent xml:lang="en">Value</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+        <cso:preferentialEquivalent xml:lang="en">Deletion_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+        <cso:preferentialEquivalent xml:lang="en">DFS_graph</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98"/>
+        <cso:preferentialEquivalent xml:lang="en">Kruskals_ST</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_da151f97_c084_4665_9dc4_3658b45754db"/>
+        <cso:preferentialEquivalent xml:lang="en">Linear_structure</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+        <cso:preferentialEquivalent xml:lang="en">Merge_sort</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+        <cso:preferentialEquivalent xml:lang="en">Rotation_tree</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <cso:preferentialEquivalent xml:lang="en">RedBlack_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <cso:preferentialEquivalent xml:lang="en">B_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+        <cso:preferentialEquivalent xml:lang="en">Stack_linear</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+        <Data-Structures-1:OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <cso:preferentialEquivalent xml:lang="en">AVL_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2">
+        <cso:preferentialEquivalent xml:lang="en">Independent_entity</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+        <cso:preferentialEquivalent xml:lang="en">Selection_sort</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+        <cso:preferentialEquivalent xml:lang="en">Quick_sort</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+        <cso:preferentialEquivalent xml:lang="en">Array_linear</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d610ab30_724e_4997_a8de_0510b42acf7f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d610ab30_724e_4997_a8de_0510b42acf7f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <cso:preferentialEquivalent xml:lang="en">Segment_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+        <cso:preferentialEquivalent xml:lang="en">Insertion_tree</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_da151f97_c084_4665_9dc4_3658b45754db -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_da151f97_c084_4665_9dc4_3658b45754db">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2"/>
+        <cso:preferentialEquivalent xml:lang="en">Structures</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+        <cso:preferentialEquivalent xml:lang="en">Bucket_sort</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+        <cso:preferentialEquivalent xml:lang="en">Tree_nonlinear</cso:preferentialEquivalent>
+        <Data-Structures-1:OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b"/>
+        <cso:preferentialEquivalent xml:lang="en">Linear_search</cso:preferentialEquivalent>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_16f7b712_72cd_4077_b491_3560f1d66238"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

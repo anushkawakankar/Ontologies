@@ -1,0 +1,799 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1">
+    <Prefix name="" IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_16f7b712_72cd_4077_b491_3560f1d66238"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2872f5ab_e655_4b26_b1b2_edc3e531af16"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_3f8fd318_eccb_4802_a666_453264e990eb"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d610ab30_724e_4997_a8de_0510b42acf7f"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_da151f97_c084_4665_9dc4_3658b45754db"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73"/>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1"/>
+        <Class IRI="#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2"/>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98"/>
+        <Class IRI="#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+        <Class IRI="#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_16f7b712_72cd_4077_b491_3560f1d66238"/>
+        <Class IRI="#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116"/>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+        <Class IRI="#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428"/>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+        <Class IRI="#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_2872f5ab_e655_4b26_b1b2_edc3e531af16"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa"/>
+        <Class IRI="#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+        <Class IRI="#OWLClass_da151f97_c084_4665_9dc4_3658b45754db"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b"/>
+        <Class IRI="#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_3f8fd318_eccb_4802_a666_453264e990eb"/>
+        <Class IRI="#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1"/>
+        <Class IRI="#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece"/>
+        <Class IRI="#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49"/>
+        <Class IRI="#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40"/>
+        <Class IRI="#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465"/>
+        <Class IRI="#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40"/>
+        <Class IRI="#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69"/>
+        <Class IRI="#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e"/>
+        <Class IRI="#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+        <Class IRI="#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+        <Class IRI="#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76"/>
+        <Class IRI="#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3"/>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109"/>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30"/>
+        <Class IRI="#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc"/>
+        <Class IRI="#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+        <Class IRI="#OWLClass_da151f97_c084_4665_9dc4_3658b45754db"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0"/>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63"/>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b"/>
+        <Class IRI="#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617"/>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817"/>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+        <Class IRI="#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d610ab30_724e_4997_a8de_0510b42acf7f"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71"/>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_da151f97_c084_4665_9dc4_3658b45754db"/>
+        <Class IRI="#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b"/>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+        <Class IRI="#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f"/>
+        <Class IRI="#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73"/>
+        <Class IRI="#OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2"/>
+        <Class IRI="#OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3"/>
+        <Class IRI="#OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109"/>
+        <Class IRI="#OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63"/>
+        <Class IRI="#OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1"/>
+        <Class IRI="#OWLClass_16f7b712_72cd_4077_b491_3560f1d66238"/>
+        <Class IRI="#OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98"/>
+        <Class IRI="#OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece"/>
+        <Class IRI="#OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8"/>
+        <Class IRI="#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2"/>
+        <Class IRI="#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5"/>
+        <Class IRI="#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116"/>
+        <Class IRI="#OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428"/>
+        <Class IRI="#OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0"/>
+        <Class IRI="#OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617"/>
+        <Class IRI="#OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817"/>
+        <Class IRI="#OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa"/>
+        <Class IRI="#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40"/>
+        <Class IRI="#OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e"/>
+        <Class IRI="#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_31db7858_1ccc_4e16_be44_df2616358469"/>
+        <Class IRI="#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_3f8fd318_eccb_4802_a666_453264e990eb"/>
+        <Class IRI="#OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1"/>
+        <Class IRI="#OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49"/>
+        <Class IRI="#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142"/>
+        <Class IRI="#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b"/>
+        <Class IRI="#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40"/>
+        <Class IRI="#OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465"/>
+        <Class IRI="#OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8"/>
+        <Class IRI="#OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8"/>
+        <Class IRI="#OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd"/>
+        <Class IRI="#OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4"/>
+        <Class IRI="#OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2"/>
+        <Class IRI="#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff"/>
+        <Class IRI="#OWLClass_da151f97_c084_4665_9dc4_3658b45754db"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece"/>
+        <Class IRI="#OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5"/>
+        <Class IRI="#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe</IRI>
+        <Literal xml:lang="en">madeUsing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a</IRI>
+        <Literal xml:lang="en">relatedTo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_000a7e3a_9772_463f_94e6_a7addacb2b73</IRI>
+        <Literal xml:lang="en">BFS_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_039301e8_d23c_42ef_9279_19e57f080fa1</IRI>
+        <Literal xml:lang="en">1D_array</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_0503b93a_8368_44dc_b37a_2bad6b170dd2</IRI>
+        <Literal xml:lang="en">Traversal_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_09446dc7_8595_4ee7_8b1a_fd1e455e1e98</IRI>
+        <Literal xml:lang="en">SpanningTree_graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8</IRI>
+        <Literal xml:lang="en">Tree_algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a"/>
+        <IRI>#OWLClass_0d8b3f0e_cd24_4f29_ab1c_f68946eaced8</IRI>
+        <IRI>#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_16f7b712_72cd_4077_b491_3560f1d66238</IRI>
+        <Literal xml:lang="en">ND_array</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_1e7368a7_b85a_4300_a567_6a67332c1116</IRI>
+        <Literal xml:lang="en">Bubble_sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2</IRI>
+        <Literal xml:lang="en">Sorting_algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a"/>
+        <IRI>#OWLClass_2242063b_0417_45ff_8883_c0326f231ab2</IRI>
+        <IRI>#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428</IRI>
+        <Literal xml:lang="en">Heap_sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a"/>
+        <IRI>#OWLClass_24d77b0d_b369_4a73_a8fb_22a2cf34d428</IRI>
+        <IRI>#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5</IRI>
+        <Literal xml:lang="en">Graph_algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a"/>
+        <IRI>#OWLClass_278f64d2_84de_42ac_bedc_fd957c88f9f5</IRI>
+        <IRI>#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_2872f5ab_e655_4b26_b1b2_edc3e531af16</IRI>
+        <Literal xml:lang="en">Suffix_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa</IRI>
+        <Literal xml:lang="en">Heap_nonlinear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+        <IRI>#OWLClass_2ed3d2d6_99bd_4e5e_a7f4_1a3d56fb36aa</IRI>
+        <IRI>#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_31db7858_1ccc_4e16_be44_df2616358469</IRI>
+        <Literal xml:lang="en">NonLinear_structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b</IRI>
+        <Literal xml:lang="en">Searching_algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a"/>
+        <IRI>#OWLClass_327be5df_336e_48e8_822f_bd7a50c4987b</IRI>
+        <IRI>#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_3f8fd318_eccb_4802_a666_453264e990eb</IRI>
+        <Literal xml:lang="en">Prims_ST</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_4aa31158_d7f8_45f3_a29c_63698fb8bcf1</IRI>
+        <Literal xml:lang="en">Binary_search</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_4c2c9f04_4471_4f48_916e_1d119341fece</IRI>
+        <Literal xml:lang="en">BFS_graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49</IRI>
+        <Literal xml:lang="en">Queue_linear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+        <IRI>#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49</IRI>
+        <IRI>#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+        <IRI>#OWLClass_4f36ec7d_c051_4339_8856_93c1a632fa49</IRI>
+        <IRI>#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_56f95607_8918_49e3_b0a5_1106c7ae8d40</IRI>
+        <Literal xml:lang="en">Doubly_linkedlist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_57c464de_bce2_46e2_9f69_b2c3a9a4e465</IRI>
+        <Literal xml:lang="en">Singly_linkedlist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_60164d1f_fb11_47f2_8d1e_a641fc61d3f8</IRI>
+        <Literal xml:lang="en">BST_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40</IRI>
+        <Literal xml:lang="en">Graph_nonlinear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+        <IRI>#OWLClass_630c3e5f_5694_47ac_8bb2_39d3b865ea40</IRI>
+        <IRI>#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_6587ebfe_6245_4f25_9228_8841f4f54a69</IRI>
+        <Literal xml:lang="en">2D_array</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e</IRI>
+        <Literal xml:lang="en">Trie_nonlinear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+        <IRI>#OWLClass_673586e7_bbe3_4b00_b31e_9954fe1dbc3e</IRI>
+        <IRI>#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142</IRI>
+        <Literal xml:lang="en">LinkedList_linear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_6c329371_0b93_4cab_b10c_e15a49fe0dff</IRI>
+        <Literal xml:lang="en">Algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_6f46f3b5_832e_45be_8418_7b20249030d8</IRI>
+        <Literal xml:lang="en">Bplus_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece</IRI>
+        <Literal xml:lang="en">Domain_entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_7ac4cff1_a56e_4acf_899b_2878eba288dd</IRI>
+        <Literal xml:lang="en">Binary_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_7ec19c51_5a27_4262_bf5e_ef474a3a5d76</IRI>
+        <Literal xml:lang="en">Circular_linkedlist</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_84eff77e_b97e_45dc_846b_a530dcbf21f3</IRI>
+        <Literal xml:lang="en">DFS_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5</IRI>
+        <Literal xml:lang="en">Value</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_9c9d9691_d78c_4f77_81e0_f4f854b29109</IRI>
+        <Literal xml:lang="en">Deletion_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_9f0c5d0c_4e12_473e_ac89_fb605f1f6c30</IRI>
+        <Literal xml:lang="en">DFS_graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_a19b37f6_1682_4a9c_b0c8_98851302bbbc</IRI>
+        <Literal xml:lang="en">Kruskals_ST</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_a3f02dfe_73de_4377_b7be_f8a0e51c9235</IRI>
+        <Literal xml:lang="en">Linear_structure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_aeda8e18_9c32_4bc8_83ab_1d31b6b356b0</IRI>
+        <Literal xml:lang="en">Merge_sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63</IRI>
+        <Literal xml:lang="en">Rotation_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_b19e5d70_104e_4e54_8447_2f3d8b38351a"/>
+        <IRI>#OWLClass_af371e5a_7990_4405_bc51_92f373fb5f63</IRI>
+        <IRI>#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_b47aecbe_aa60_422b_a250_ebf21d42d3e4</IRI>
+        <Literal xml:lang="en">RedBlack_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_baf00c6a_0f1e_4640_b093_64b0f535dfb2</IRI>
+        <Literal xml:lang="en">B_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b</IRI>
+        <Literal xml:lang="en">Stack_linear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+        <IRI>#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b</IRI>
+        <IRI>#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+        <IRI>#OWLClass_c10fd44e_8df8_4743_b064_2ff83932ba2b</IRI>
+        <IRI>#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_c5a23be1_7e81_492e_9fa2_b805b5295392</IRI>
+        <Literal xml:lang="en">AVL_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_ca22b328_0652_4a1e_99b8_8ee914bd34b2</IRI>
+        <Literal xml:lang="en">Independent_entity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_cb9f9cca_fb89_4e64_a8dc_ab15b1358617</IRI>
+        <Literal xml:lang="en">Selection_sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_d029cd9c_b5b0_4fea_90ce_aa4c2916b817</IRI>
+        <Literal xml:lang="en">Quick_sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_d02d1f3e_3e62_429d_aa9c_7cb67f086b5d</IRI>
+        <Literal xml:lang="en">Array_linear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_d610ab30_724e_4997_a8de_0510b42acf7f</IRI>
+        <Literal xml:lang="en">Segment_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_d9e01272_ab6e_403a_9cb2_2ddc1adc9f71</IRI>
+        <Literal xml:lang="en">Insertion_tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_da151f97_c084_4665_9dc4_3658b45754db</IRI>
+        <Literal xml:lang="en">Structures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_eb28c825_a6d0_4a3b_bea0_30d4d51f918b</IRI>
+        <Literal xml:lang="en">Bucket_sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31</IRI>
+        <Literal xml:lang="en">Tree_nonlinear</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#OWLAnnotationProperty_9fc77749_9b54_4d61_9b62_f66965acc7fe"/>
+        <IRI>#OWLClass_eb3c03f8_04f2_49cf_a217_dba7ac7f3a31</IRI>
+        <IRI>#OWLClass_6b9b7943_d422_4697_bba7_90e118e40142</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://cso.kmi.open.ac.uk/schema/cso#preferentialEquivalent"/>
+        <IRI>#OWLClass_f8cf1ad7_9cf3_4b37_a65c_cee77681022f</IRI>
+        <Literal xml:lang="en">Linear_search</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
