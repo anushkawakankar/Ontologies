@@ -1,0 +1,2062 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1">
+    <Prefix name="" IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1"/>
+    <Prefix name="a" IRI="http://localhost/foo#"/>
+    <Prefix name="c" IRI="http://s.opencalais.com/1/pred/"/>
+    <Prefix name="d" IRI="http://learningsparql.com/ns/data#"/>
+    <Prefix name="g" IRI="http://www.workingontologist.org/Examples/Chapter6/TheFirm.owl/"/>
+    <Prefix name="o" IRI="urn:schemas-microsoft-com:office:office"/>
+    <Prefix name="s" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="x" IRI="urn:schemas-microsoft-com:office:excel"/>
+    <Prefix name="MF" IRI="http://purl.obolibrary.org/obo/MF#"/>
+    <Prefix name="MO" IRI="http://lapd.pt/myOntology.owl#"/>
+    <Prefix name="WV" IRI="http://www.wurvoc.org/vocabularies/WV/"/>
+    <Prefix name="ab" IRI="http://oziz.ffos.hr/aboras/ak-ontologija#"/>
+    <Prefix name="bp" IRI="http://www.biopax.org/release/biopax-level3.owl#"/>
+    <Prefix name="cc" IRI="https://w3id.org/costumeCore/ontology/"/>
+    <Prefix name="cd" IRI="http://www.recshop.fake/cd#"/>
+    <Prefix name="ci" IRI="https://www.oscinema.com.sg/cinema#"/>
+    <Prefix name="d0" IRI="http://www.ontologydesignpatterns.org/ont/d0.owl#"/>
+    <Prefix name="db" IRI="http://localhost:2020/"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/#"/>
+    <Prefix name="en" IRI="http://www.enseignement.org#"/>
+    <Prefix name="ex" IRI="&quot;http://example.org&quot;"/>
+    <Prefix name="fm" IRI="https://www.oscinema.com.sg/week3#"/>
+    <Prefix name="fn" IRI="http://www.w3.org/2005/xpath-functions#"/>
+    <Prefix name="gn" IRI="http://www.geonames.org/ontology#"/>
+    <Prefix name="go" IRI="http://purl.obolibrary.org/obo/go#"/>
+    <Prefix name="gr" IRI="http://purl.org/goodrelations/v1#"/>
+    <Prefix name="hp" IRI="http://purl.obolibrary.org/obo/hp#"/>
+    <Prefix name="kd" IRI="http://oziz.ffos.hr/kdjurdjevic/dk-ontologija#"/>
+    <Prefix name="mf" IRI="http://www.w3.org/2001/sw/DataAccess/tests/test-manifest#"/>
+    <Prefix name="mo" IRI="http://www.movieontology.org/2009/10/01/movieontology.owl#"/>
+    <Prefix name="ns" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="od" IRI="urn:schemas-microsoft-com:officedata"/>
+    <Prefix name="om" IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/"/>
+    <Prefix name="p1" IRI="http://www.owl-ontologies.com/assert.owl#"/>
+    <Prefix name="pr" IRI="http://purl.obolibrary.org/obo/pr#"/>
+    <Prefix name="qb" IRI="http://purl.org/linked-data/cube#"/>
+    <Prefix name="qu" IRI="http://purl.org/NET/ssnx/qu/qu#"/>
+    <Prefix name="rd" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example2/compact/routed_paths2.rdf#"/>
+    <Prefix name="rr" IRI="http://www.w3.org/ns/r2rml#"/>
+    <Prefix name="sc" IRI="http://purl.org/science/owl/sciencecommons/"/>
+    <Prefix name="sd" IRI="http://www.w3.org/ns/sparql-service-description#"/>
+    <Prefix name="sh" IRI="http://www.w3.org/ns/shacl#"/>
+    <Prefix name="si" IRI="https://www.w3schools.com/rdf/"/>
+    <Prefix name="sp" IRI="http://spinrdf.org/sp#"/>
+    <Prefix name="sr" IRI="http://www.w3.org/ns/sosa/sampling/"/>
+    <Prefix name="ss" IRI="urn:schemas-microsoft-com:office:spreadsheet"/>
+    <Prefix name="st" IRI="https://www.oscinema.com.sg/cinema#"/>
+    <Prefix name="sw" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
+    <Prefix name="ub" IRI="http://swat.cse.lehigh.edu/onto/univ-bench.owl#"/>
+    <Prefix name="v0" IRI="http://ethon.consensys.net/v0/"/>
+    <Prefix name="vs" IRI="http://www.w3.org/2003/06/sw-vocab-status/ns#"/>
+    <Prefix name="wk" IRI="https://www.oscinema.com.sg/cinema#"/>
+    <Prefix name="wn" IRI="http://xmlns.com/wordnet/1.6/"/>
+    <Prefix name="xf" IRI="http://www.w3.org/2004/07/xpath-functions"/>
+    <Prefix name="xs" IRI="http://www.w3.org/2001/XMLSchema"/>
+    <Prefix name="OWL" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="RID" IRI="http://radlex.org/RID/"/>
+    <Prefix name="SEG" IRI="http://www.outreach.io/SEG#"/>
+    <Prefix name="air" IRI="http://www.megginson.com/exp/ns/airports#"/>
+    <Prefix name="app" IRI="http://www.opengis.net/citygml/appearance/2.0/"/>
+    <Prefix name="arg" IRI="http://spinrdf.org/arg#"/>
+    <Prefix name="atm" IRI="https://data.nasa.gov/ontologies/atmonto/ATM#"/>
+    <Prefix name="bio" IRI="http://purl.org/vocab/bio/0.1/"/>
+    <Prefix name="bto" IRI="http://purl.obolibrary.org/obo/bto#"/>
+    <Prefix name="cco" IRI="http://www.ontologyrepository.com/CommonCoreOntologies/"/>
+    <Prefix name="cdt" IRI="http://w3id.org/lindt/custom_datatypes#"/>
+    <Prefix name="crm" IRI="http://www.cidoc-crm.org/cidoc-crm/"/>
+    <Prefix name="dbo" IRI="http://dbpedia.org/ontology/"/>
+    <Prefix name="dbp" IRI="http://dbpedia.org/ontology/"/>
+    <Prefix name="dct" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="dei" IRI="http://www.elet.polimi.it#"/>
+    <Prefix name="dem" IRI="http://www.opengis.net/citygml/relief/2.0/"/>
+    <Prefix name="dgu" IRI="http://reference.data.gov.uk/def/reference/"/>
+    <Prefix name="dii" IRI="urn:mpeg:mpeg21:2002:01-DII-NS#"/>
+    <Prefix name="doc" IRI="http://www.w3.org/2000/10/swap/pim/doc#"/>
+    <Prefix name="dos" IRI="https://mohamed.eldesouki.ca/rdf#"/>
+    <Prefix name="dpv" IRI="http://w3.org/ns/dpv#"/>
+    <Prefix name="dto" IRI="http://www.drugtargetontology.org/dto/"/>
+    <Prefix name="dul" IRI="http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#"/>
+    <Prefix name="eco" IRI="http://www.ebusiness-unibw.org/ontologies/eclass/5.1.4/#"/>
+    <Prefix name="efo" IRI="http://www.ebi.ac.uk/efo/"/>
+    <Prefix name="epo" IRI="http://data.europa.eu/a4d#"/>
+    <Prefix name="eqp" IRI="https://data.nasa.gov/ontologies/atmonto/equipment#"/>
+    <Prefix name="fma" IRI="http://purl.obolibrary.org/obo/fma#"/>
+    <Prefix name="fno" IRI="http://www.semanticweb.org/developer/ontologies/2020/3/Fake_news_Ontology"/>
+    <Prefix name="foo" IRI="http://example.com/foo#"/>
+    <Prefix name="frn" IRI="http://www.opengis.net/citygml/cityfurniture/2.0/"/>
+    <Prefix name="gen" IRI="http://www.opengis.net/citygml/generics/2.0/"/>
+    <Prefix name="geo" IRI="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    <Prefix name="gis" IRI="http://www.opengis.net/ont/geosparql#"/>
+    <Prefix name="gml" IRI="http://www.opengis.net/gml/"/>
+    <Prefix name="grp" IRI="http://www.opengis.net/citygml/cityobjectgroup/2.0/"/>
+    <Prefix name="hfp" IRI="http://www.w3.org/2001/XMLSchema-hasFacetAndProperty"/>
+    <Prefix name="hls" IRI="#"/>
+    <Prefix name="hp2" IRI="http://purl.obolibrary.org/obo/hp.owl#"/>
+    <Prefix name="ids" IRI="https://w3id.org/idsa/core/"/>
+    <Prefix name="ind" IRI="http://manusquare.project.eu/industrial-manusquare#"/>
+    <Prefix name="j.0" IRI="http://www.co-ode.org/ontologies/ont.owl#"/>
+    <Prefix name="j.1" IRI="http://schema.mobivoc.org/#"/>
+    <Prefix name="j.2" IRI="http://schema.org/"/>
+    <Prefix name="j.3" IRI="http://purl.org/vocommons/voaf#"/>
+    <Prefix name="j.4" IRI="http://rdfs.org/ns/void#"/>
+    <Prefix name="j.5" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="j.6" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="j.7" IRI="http://purl.org/vocab/vann/"/>
+    <Prefix name="j.8" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="j.9" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="ldp" IRI="http://www.w3.org/ns/ldp#"/>
+    <Prefix name="lib" IRI="http://www.m2.as.u.like/myTerms/"/>
+    <Prefix name="map" IRI="http://localhost:2020/#"/>
+    <Prefix name="mfg" IRI="http://www.workingontologist.org/Examples/Chapter3/Product.owl#"/>
+    <Prefix name="mld" IRI="http://mld.ace.fordham.edu/mld"/>
+    <Prefix name="mo2" IRI="http://www.movieontology.org/2009/11/09/movieontology.owl#"/>
+    <Prefix name="muo" IRI="http://purl.oclc.org/NET/muo/muo#"/>
+    <Prefix name="mus" IRI="http://data.doremus.org/ontology#"/>
+    <Prefix name="mvo" IRI="http://www.semanticweb.org/nataraj.bukkambudi/ontologies/2020/2/voyager_ontology.owl#mvo:"/>
+    <Prefix name="nas" IRI="https://data.nasa.gov/ontologies/atmonto/NAS#"/>
+    <Prefix name="nbo" IRI="http://purl.obolibrary.org/obo/nbo.owl#"/>
+    <Prefix name="nci" IRI="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl#"/>
+    <Prefix name="nml" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/ontology/nml-base.owl#"/>
+    <Prefix name="npg" IRI="http://ns.nature.com/terms/"/>
+    <Prefix name="ns0" IRI="http://example.org/myVocabulary/"/>
+    <Prefix name="ns1" IRI="http://visualdataweb.org/movieOntology/"/>
+    <Prefix name="ns2" IRI="http://lambda3.org/graphene/sentence#"/>
+    <Prefix name="ns3" IRI="http://dbpedia.org/ontology/Stream/"/>
+    <Prefix name="ns4" IRI="http://dbpedia.org/ontology/Lake/"/>
+    <Prefix name="ns5" IRI="http://dbpedia.org/ontology/Weapon/"/>
+    <Prefix name="ns6" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="ns7" IRI="http://dbpedia.org/ontology/MeanOfTransportation/"/>
+    <Prefix name="ns8" IRI="http://open.vocab.org/terms/"/>
+    <Prefix name="ns9" IRI="http://mappings.dbpedia.org/index.php/OntologyProperty:"/>
+    <Prefix name="obo" IRI="http://purl.obolibrary.org/obo/"/>
+    <Prefix name="ogc" IRI="http://www.opengis.net/"/>
+    <Prefix name="ogr" IRI="http://ogr.maptools.org/"/>
+    <Prefix name="olo" IRI="http://purl.org/ontology/olo/core#"/>
+    <Prefix name="ont" IRI="http://www.co-ode.org/ontologies/ont.owl#"/>
+    <Prefix name="org" IRI="http://www.w3.org/ns/org#"/>
+    <Prefix name="otn" IRI="http://www.pms.ifi.uni-muenchen.de/OTN#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="pim" IRI="http://www.w3.org/2000/10/swap/pim/contact#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rml" IRI="http://semweb.mmlab.be/ns/rml#"/>
+    <Prefix name="rss" IRI="http://purl.org/rss/1.0/"/>
+    <Prefix name="rut" IRI="http://rdfunit.aksw.org/ns/core#"/>
+    <Prefix name="sc1" IRI="https://www.oscinema.com.sg/cinema/Screen1#"/>
+    <Prefix name="sc2" IRI="https://www.oscinema.com.sg/cinema/Screen2#"/>
+    <Prefix name="sc3" IRI="https://www.oscinema.com.sg/cinema/Screen3#"/>
+    <Prefix name="sct" IRI="http://snomed.info/id/"/>
+    <Prefix name="scv" IRI="http://purl.org/NET/scovo#"/>
+    <Prefix name="sdg" IRI="http://purl.unep.org/sdg/"/>
+    <Prefix name="sdo" IRI="http://schema.org/"/>
+    <Prefix name="sfn" IRI="http://www.w3.org/ns/sparql#"/>
+    <Prefix name="sio" IRI="http://semanticscience.org/resource/"/>
+    <Prefix name="spl" IRI="http://www.specialprivacy.eu/langs/usage-policy#"/>
+    <Prefix name="ssn" IRI="https://www.w3.org/ns/ssn/"/>
+    <Prefix name="st1" IRI="https://www.oscinema.com.sg/cinema/showtime/slot1#"/>
+    <Prefix name="st2" IRI="https://www.oscinema.com.sg/cinema/showtime/slot2#"/>
+    <Prefix name="st3" IRI="https://www.oscinema.com.sg/cinema/showtime/slot3#"/>
+    <Prefix name="sto" IRI="https://ken.baclawski.com/STO#"/>
+    <Prefix name="stx" IRI="http://purl.org/cyber/stix#"/>
+    <Prefix name="svd" IRI="http://www.specialprivacy.eu/vocabs/data#"/>
+    <Prefix name="swo" IRI="http://www.ebi.ac.uk/swo/"/>
+    <Prefix name="tag" IRI="https://brickschema.org/schema/1.1.0/BrickTag#"/>
+    <Prefix name="tex" IRI="http://www.opengis.net/citygml/texturedsurface/2.0/"/>
+    <Prefix name="th1" IRI="https://www.oscinema.com.sg/cinema/Week1/theme1/Screen3#"/>
+    <Prefix name="th2" IRI="https://www.oscinema.com.sg/cinema/Week1/theme2/Screen3#"/>
+    <Prefix name="th3" IRI="https://www.oscinema.com.sg/cinema/Week1/theme3/Screen3#"/>
+    <Prefix name="th4" IRI="https://www.oscinema.com.sg/cinema/Week2/theme1/Screen3#"/>
+    <Prefix name="th5" IRI="https://www.oscinema.com.sg/cinema/Week2/theme2/Screen3#"/>
+    <Prefix name="th6" IRI="https://www.oscinema.com.sg/cinema/Week2/theme3/Screen3#"/>
+    <Prefix name="th7" IRI="https://www.oscinema.com.sg/cinema/Week3/theme1/Screen3#"/>
+    <Prefix name="th8" IRI="https://www.oscinema.com.sg/cinema/Week3/theme2/Screen3#"/>
+    <Prefix name="th9" IRI="https://www.oscinema.com.sg/cinema/Week3/theme3/Screen3#"/>
+    <Prefix name="tim" IRI="https://www.w3.org/People/Berners-Lee/"/>
+    <Prefix name="tm1" IRI="https://www.oscinema.com.sg/cinema/Week1#"/>
+    <Prefix name="tm2" IRI="https://www.oscinema.com.sg/cinema/Week2#"/>
+    <Prefix name="tm3" IRI="https://www.oscinema.com.sg/cinema/Week3#"/>
+    <Prefix name="top" IRI="http://www.estrellaproject.org/lkif-core/lkif-top.owl#"/>
+    <Prefix name="tsl" IRI="http://www.Cproject.at/warehouse"/>
+    <Prefix name="tun" IRI="http://www.opengis.net/citygml/tunnel/2.0/"/>
+    <Prefix name="uco" IRI="http://purl.org/cyber#"/>
+    <Prefix name="ufo" IRI="http://onto.fel.cvut.cz/ontologies/ufo/"/>
+    <Prefix name="uld" IRI="https://onerecord.iata.org/ULD#"/>
+    <Prefix name="uml" IRI="http://www.eclipse.org/uml2/5.0.0/UML"/>
+    <Prefix name="uni" IRI="http://www.mydomain.org/uni-ns#"/>
+    <Prefix name="uom" IRI="http://www.opengis.net/def/uom/OGC/1.0/"/>
+    <Prefix name="v4e" IRI="http://bdi.si.ehu.es/bdi/ontologies/extrusion/visualization4ExtruOnt#"/>
+    <Prefix name="veg" IRI="http://www.opengis.net/citygml/vegetation/2.0/"/>
+    <Prefix name="vin" IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/wine#"/>
+    <Prefix name="vra" IRI="http://purl.org/vra/"/>
+    <Prefix name="wot" IRI="http://xmlns.com/wot/0.1/"/>
+    <Prefix name="wtr" IRI="http://www.opengis.net/citygml/waterbody/2.0/"/>
+    <Prefix name="www" IRI="http://www.w3.org/2001/"/>
+    <Prefix name="xhv" IRI="http://www.w3.org/1999/xhtml/vocab#"/>
+    <Prefix name="xmi" IRI="http://www.omg.org/XMI"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="xsi" IRI="http://www.w3.org/2001/XMLSchema-instance"/>
+    <Prefix name="xsp" IRI="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"/>
+    <Prefix name="zoo" IRI="http://example.org/zoo/"/>
+    <Prefix name="Cibo" IRI="http://almawave.it/ontologies/2020/01/09/Cibo#"/>
+    <Prefix name="Thin" IRI="http://www.think-project.org/ThinkD#"/>
+    <Prefix name="adkd" IRI="http://oziz.ffos.hr/aboras/ak-ontologija#"/>
+    <Prefix name="adms" IRI="http://www.w3.org/ns/adms#"/>
+    <Prefix name="area" IRI="http://www.area.it/area#"/>
+    <Prefix name="asit" IRI="http://purl.org/asit/terms/"/>
+    <Prefix name="base" IRI="http://www.semanticweb.org/nelson/ontologies/2018/9/pep#"/>
+    <Prefix name="bibo" IRI="http://purl.org/ontology/bibo/"/>
+    <Prefix name="bldg" IRI="http://www.opengis.net/citygml/building/2.0/"/>
+    <Prefix name="brid" IRI="http://www.opengis.net/citygml/bridge/2.0/"/>
+    <Prefix name="caso" IRI="http://www.w3id.org/def/caso#"/>
+    <Prefix name="cims" IRI="http://iec.ch/TC57/1999/rdf-schema-extensions-19990926#"/>
+    <Prefix name="cito" IRI="http://purl.org/spar/cito/"/>
+    <Prefix name="conf" IRI="http:conf/"/>
+    <Prefix name="core" IRI="http://www.opengis.net/citygml/2.0/"/>
+    <Prefix name="csdo" IRI="http://www.csdo.org/2019/5/csdo#"/>
+    <Prefix name="ctro" IRI="http://www.semanticweb.org/root/ontologies/2018/6/ctro#"/>
+    <Prefix name="daml" IRI="http://www.daml.org/2001/03/daml+oil#"/>
+    <Prefix name="data" IRI="https://data.nasa.gov/ontologies/atmonto/data#"/>
+    <Prefix name="dcat" IRI="http://www.w3.org/ns/dcat#"/>
+    <Prefix name="doap" IRI="http://usefulinc.com/ns/doap#"/>
+    <Prefix name="doid" IRI="http://purl.obolibrary.org/obo/doid#"/>
+    <Prefix name="dram" IRI="http://www.cesar/www.dramabase/ontology/"/>
+    <Prefix name="dto1" IRI="http://www.drugtargetontology.org/dto#"/>
+    <Prefix name="ecrm" IRI="http://erlangen-crm.org/current/"/>
+    <Prefix name="edmx" IRI="http://docs.oasis-open.org/odata/ns/edmx"/>
+    <Prefix name="esco" IRI="http://data.europa.eu/esco/model#"/>
+    <Prefix name="exam" IRI="http://www.cs.le.ac.uk/co7216/exam#"/>
+    <Prefix name="exif" IRI="http://www.w3.org/2003/12/exif/ns#"/>
+    <Prefix name="fhir" IRI="http://hl7.org/fhir/"/>
+    <Prefix name="film" IRI="http://www.semprog.com/film#"/>
+    <Prefix name="foaf" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="focu" IRI="http://focu.io/schema#"/>
+    <Prefix name="food" IRI="http://www.w3.org/TR/2003/PR-owl-guide-20031209/food#"/>
+    <Prefix name="geof" IRI="http://www.opengis.net/def/function/geosparql/"/>
+    <Prefix name="geos" IRI="http://www.opengis.net/ont/geosparql#"/>
+    <Prefix name="gist" IRI="https://ontologies.semanticarts.com/gist/"/>
+    <Prefix name="greg" IRI="http://www.w3.org/ns/time/gregorian/"/>
+    <Prefix name="gres" IRI="http://genomic-resources.eu/resource/"/>
+    <Prefix name="gtfs" IRI="http://vocab.gtfs.org/terms#"/>
+    <Prefix name="html" IRI="http://www.w3.org/TR/REC-html40"/>
+    <Prefix name="http" IRI="http://"/>
+    <Prefix name="imdb" IRI="http://www.imdb.com/"/>
+    <Prefix name="inst" IRI="http://manusquare.project.eu/instances-manusquare#/"/>
+    <Prefix name="isbd" IRI="http://iflastandards.info/ns/isbd/elements/"/>
+    <Prefix name="item" IRI="https://onerecord.iata.org/Item#"/>
+    <Prefix name="j.10" IRI="http://www.ontologydesignpatterns.org/ont/fred/pos.owl#"/>
+    <Prefix name="j.11" IRI="http://www.ontologydesignpatterns.org/ont/fred/domain.owl#%27"/>
+    <Prefix name="j.12" IRI="http://www.ontologydesignpatterns.org/ont/cnlp/coref.owl#"/>
+    <Prefix name="j.13" IRI="http://dbpedia.org/resource/Element_(mathematics)"/>
+    <Prefix name="jerm" IRI="http://www.mygrid.org.uk/ontology/JERMOntology#"/>
+    <Prefix name="kids" IRI="https://ken.baclawski.com/kids#"/>
+    <Prefix name="km4c" IRI="http://www.disit.org/km4city/schema#"/>
+    <Prefix name="lang" IRI="http://purl.org/net/inkel/rdf/schemas/lang/1.1#"/>
+    <Prefix name="lcon" IRI="http://www.w3.org/ns/locn#"/>
+    <Prefix name="locn" IRI="http://www.w3.org/ns/locn#"/>
+    <Prefix name="luse" IRI="http://www.opengis.net/citygml/landuse/2.0/"/>
+    <Prefix name="math" IRI="http://www.w3.org/2000/10/swap/math#"/>
+    <Prefix name="mesh" IRI="https://meshb.nlm.nih.gov/record#"/>
+    <Prefix name="misp" IRI="http://purl.org/cyber/misp#"/>
+    <Prefix name="mvco" IRI="http://purl.oclc.org/NET/mvco.owl#"/>
+    <Prefix name="myns" IRI="http://www.dis.uniroma1.it/%7Erosati/semanticweb/"/>
+    <Prefix name="nerd" IRI="http://nerd.eurecom.fr/ontology#"/>
+    <Prefix name="npgd" IRI="http://ns.nature.com/datasets/"/>
+    <Prefix name="npgg" IRI="http://ns.nature.com/graphs/"/>
+    <Prefix name="ns10" IRI="http://dbpedia.org/datatype/"/>
+    <Prefix name="ns11" IRI="http://dbpedia.org/ontology/Automobile/"/>
+    <Prefix name="ns12" IRI="http://dbpedia.org/ontology/Canal/"/>
+    <Prefix name="ns13" IRI="http://dbpedia.org/ontology/ChemicalSubstance/"/>
+    <Prefix name="ns14" IRI="http://dbpedia.org/ontology/ConveyorSystem/"/>
+    <Prefix name="ns15" IRI="http://dbpedia.org/ontology/Drug/"/>
+    <Prefix name="ns16" IRI="http://dbpedia.org/ontology/Escalator/"/>
+    <Prefix name="ns17" IRI="http://dbpedia.org/ontology/Galaxy/"/>
+    <Prefix name="ns18" IRI="http://dbpedia.org/ontology/GeopoliticalOrganisation/"/>
+    <Prefix name="ns19" IRI="http://dbpedia.org/ontology/GrandPrix/"/>
+    <Prefix name="ns20" IRI="http://dbpedia.org/ontology/LunarCrater/"/>
+    <Prefix name="ns21" IRI="http://dbpedia.org/ontology/MovingWalkway/"/>
+    <Prefix name="ns22" IRI="http://dbpedia.org/ontology/On-SiteTransportation/"/>
+    <Prefix name="ns23" IRI="http://dbpedia.org/ontology/Planet/"/>
+    <Prefix name="ns24" IRI="http://dbpedia.org/ontology/Rocket/"/>
+    <Prefix name="ns25" IRI="http://dbpedia.org/ontology/School/"/>
+    <Prefix name="ns26" IRI="http://dbpedia.org/ontology/Software/"/>
+    <Prefix name="ns27" IRI="http://dbpedia.org/ontology/SpaceMission/"/>
+    <Prefix name="ns28" IRI="http://dbpedia.org/ontology/SpaceShuttle/"/>
+    <Prefix name="ns29" IRI="http://dbpedia.org/ontology/SpaceStation/"/>
+    <Prefix name="ns30" IRI="http://dbpedia.org/ontology/Spacecraft/"/>
+    <Prefix name="ns31" IRI="http://dbpedia.org/ontology/Person/"/>
+    <Prefix name="ns32" IRI="http://dbpedia.org/ontology/Infrastructure/"/>
+    <Prefix name="ns33" IRI="http://dbpedia.org/ontology/Building/"/>
+    <Prefix name="ns34" IRI="http://dbpedia.org/ontology/Astronaut/"/>
+    <Prefix name="ns35" IRI="http://dbpedia.org/ontology/Work/"/>
+    <Prefix name="ns37" IRI="http://purl.org/vocommons/voaf#"/>
+    <Prefix name="ns40" IRI="http://wiki.dbpedia.org/"/>
+    <Prefix name="ns42" IRI="http://creativecommons.org/ns#"/>
+    <Prefix name="ns43" IRI="http://purl.org/vocab/vann/"/>
+    <Prefix name="ns44" IRI="http://open.vocab.org/terms/"/>
+    <Prefix name="obda" IRI="https://w3id.org/obda/vocabulary#"/>
+    <Prefix name="obo2" IRI="http://purl.obolibrary.org/obo#"/>
+    <Prefix name="ocsw" IRI="http://data.diekb.org/def/ocsw#"/>
+    <Prefix name="odrl" IRI="http://www.w3.org/ns/odrl/2/"/>
+    <Prefix name="oeev" IRI="http://www.opensilex.org/vocabulary/oeev#"/>
+    <Prefix name="om-2" IRI="http://www.ontology-of-units-of-measure.org/resource/om-2/"/>
+    <Prefix name="onto" IRI="http://fakesite.org/webcompany.owl#"/>
+    <Prefix name="opla" IRI="http://ontologydesignpatterns.org/opla#"/>
+    <Prefix name="owl2" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="page" IRI="http://dbpedia.org/page/"/>
+    <Prefix name="pato" IRI="http://purl.obolibrary.org/obo/pato#"/>
+    <Prefix name="phil" IRI="http://philosurfical.open.ac.uk/ontology/philosurfical.owl#"/>
+    <Prefix name="prov" IRI="http://www.w3.org/ns/prov#"/>
+    <Prefix name="qudt" IRI="http://qudt.org/2.1/schema/qudt/"/>
+    <Prefix name="rdf1" IRI="http://www.cropontology.org/rdf/"/>
+    <Prefix name="rdfa" IRI="http://www.w3.org/ns/rdfa#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="rlog" IRI="http://persistence.uni-leipzig.org/nlp2rdf/ontologies/rlog#"/>
+    <Prefix name="role" IRI="http://www.estrellaproject.org/lkif-core/role.owl#"/>
+    <Prefix name="sctm" IRI="http://snomed.info/sct/subset/"/>
+    <Prefix name="seas" IRI="https://w3id.org/seas/"/>
+    <Prefix name="sika" IRI="http://ontology.sika.com/"/>
+    <Prefix name="sioc" IRI="http://rdfs.org/sioc/ns#"/>
+    <Prefix name="skos" IRI="http://www.w3.org/2004/02/skos/core#"/>
+    <Prefix name="snap" IRI="http://www.ifomis.org/bfo/1.1/snap#"/>
+    <Prefix name="sosa" IRI="http://www.w3.org/ns/sosa#"/>
+    <Prefix name="span" IRI="http://www.ifomis.org/bfo/1.1/span#"/>
+    <Prefix name="spdx" IRI="http://spdx.org/rdf/terms#"/>
+    <Prefix name="spin" IRI="http://spinrdf.org/spin#"/>
+    <Prefix name="stat" IRI="http://lubm.shacl.stat.io/"/>
+    <Prefix name="sth1" IRI="https://www.oscinema.com.sg/cinema/Week/theme1/Screen3/slot1#"/>
+    <Prefix name="sth2" IRI="https://www.oscinema.com.sg/cinema/Week/theme2/Screen3/slot2#"/>
+    <Prefix name="sth3" IRI="https://www.oscinema.com.sg/cinema/Week/theme3/Screen3/slot3#"/>
+    <Prefix name="svpr" IRI="http://www.specialprivacy.eu/vocabs/processing#"/>
+    <Prefix name="svpu" IRI="http://www.specialprivacy.eu/vocabs/purposes#"/>
+    <Prefix name="swrl" IRI="http://www.w3.org/2003/11/swrl#"/>
+    <Prefix name="time" IRI="http://www.w3.org/2006/time#"/>
+    <Prefix name="tran" IRI="http://www.opengis.net/citygml/transportation/2.0/"/>
+    <Prefix name="ucum" IRI="http://purl.oclc.org/NET/muo/ucum/"/>
+    <Prefix name="umls" IRI="http://bioportal.bioontology.org/ontologies/umls/"/>
+    <Prefix name="unit" IRI="http://qudt.org/vocab/unit/"/>
+    <Prefix name="univ" IRI="http://www.indoversitas.id/"/>
+    <Prefix name="vaem" IRI="http://www.linkedmodel.org/schema/vaem#"/>
+    <Prefix name="vann" IRI="http://purl.org/vocab/vann/"/>
+    <Prefix name="vivo" IRI="http://vivoweb.org/ontology/core#"/>
+    <Prefix name="voaf" IRI="http://purl.org/vocommons/voaf#"/>
+    <Prefix name="voag" IRI="http://voag.linkedmodel.org/voag#"/>
+    <Prefix name="void" IRI="http://rdfs.org/ns/void#"/>
+    <Prefix name="wdrs" IRI="http://www.w3.org/2007/05/powder-s#"/>
+    <Prefix name="yago" IRI="http://dbpedia.org/class/yago/"/>
+    <Prefix name="admin" IRI="http://webns.net/mvcb/"/>
+    <Prefix name="arjun" IRI="http://lsirwww.epfl.ch/courses/dis/2005ws/exercises/rdf/www/schema.txt"/>
+    <Prefix name="bevon" IRI="http://rdfs.co/bevon/"/>
+    <Prefix name="brick" IRI="https://brickschema.org/schema/1.1.0/Brick#"/>
+    <Prefix name="capec" IRI="http://purl.org/cyber/capec#"/>
+    <Prefix name="carex" IRI="http://biosemantics.arizona.edu/ontologies/carex#"/>
+    <Prefix name="cesar" IRI="http://www.cesar/"/>
+    <Prefix name="chebi" IRI="http://purl.obolibrary.org/obo/chebi/"/>
+    <Prefix name="clmat" IRI="http://www.nsmntx.org/2019/10/clothingMaterials#"/>
+    <Prefix name="conn2" IRI="https://aastat.gov.de/connector/conn2/"/>
+    <Prefix name="core1" IRI="http://purl.obolibrary.org/obo/core#"/>
+    <Prefix name="core2" IRI="http://purl.obolibrary.org/obo/core#"/>
+    <Prefix name="core3" IRI="http://purl.obolibrary.org/obo/core#"/>
+    <Prefix name="crmpc" IRI="http://www.cidoc-crm.org/crm_property_classes/"/>
+    <Prefix name="dawgt" IRI="http://www.w3.org/2001/sw/DataAccess/tests/test-dawg#"/>
+    <Prefix name="dtype" IRI="http://www.linkedmodel.org/schema/dtype#"/>
+    <Prefix name="esadm" IRI="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/territorio#"/>
+    <Prefix name="esagm" IRI="http://vocab.ciudadesabiertas.es/def/sector-publico/agenda-municipal#"/>
+    <Prefix name="escjr" IRI="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/callejero#"/>
+    <Prefix name="esdir" IRI="http://vocab.linkeddata.es/datosabiertos/def/commons/direccion-postal#"/>
+    <Prefix name="euvoc" IRI="http://publications.europa.eu/ontology/euvoc#"/>
+    <Prefix name="event" IRI="http://purl.org/NET/c4dm/event.owl#"/>
+    <Prefix name="fabio" IRI="http://purl.org/spar/fabio/"/>
+    <Prefix name="grddl" IRI="http://www.w3.org/2003/g/data-view#"/>
+    <Prefix name="gront" IRI="http://genomic-resources.eu/ontology/"/>
+    <Prefix name="irrig" IRI="http://www.w3id.org/def/irrig#"/>
+    <Prefix name="km4cr" IRI="http://www.disit.org/km4city/resource#"/>
+    <Prefix name="legal" IRI="http://www.w3.org/ns/legal#"/>
+    <Prefix name="lemon" IRI="http://lemon-model.net/lemon#"/>
+    <Prefix name="lvont" IRI="http://lexvo.org/ontology#"/>
+    <Prefix name="mereo" IRI="http://www.estrellaproject.org/lkif-core/mereology.owl#"/>
+    <Prefix name="mondo" IRI="http://purl.obolibrary.org/obo/mondo#"/>
+    <Prefix name="offer" IRI="https://onerecord.iata.org/Offer#"/>
+    <Prefix name="ogcgs" IRI="http://www.opengis.net/ont/geosparql#"/>
+    <Prefix name="ogcsf" IRI="http://www.opengis.net/ont/sf#"/>
+    <Prefix name="omgeo" IRI="http://www.ontotext.com/owlim/geo#"/>
+    <Prefix name="orges" IRI="http://vocab.linkeddata.es/datosabiertos/def/sector-publico/organizacion#"/>
+    <Prefix name="other" IRI="https://onerecord.iata.org/Other#"/>
+    <Prefix name="owl11" IRI="http://www.w3.org/2006/12/owl11#"/>
+    <Prefix name="part1" IRI="https://im.internationaldataspaces.org/participant/part1"/>
+    <Prefix name="piece" IRI="https://onerecord.iata.org/Piece#"/>
+    <Prefix name="pizza" IRI="http://www.co-ode.org/ontologies/pizza/pizza.owl#"/>
+    <Prefix name="place" IRI="http://www.estrellaproject.org/lkif-core/relative-places.owl#"/>
+    <Prefix name="power" IRI="http://purl.oclc.org/NET/muo/ucum/unit/power/"/>
+    <Prefix name="price" IRI="https://onerecord.iata.org/Price#"/>
+    <Prefix name="prism" IRI="http://prismstandard.org/namespaces/basic/2.1/"/>
+    <Prefix name="quest" IRI="http://obda.org/quest#"/>
+    <Prefix name="rdfdf" IRI="http://www.openlinksw.com/virtrdf-data-formats#"/>
+    <Prefix name="saplo" IRI="http://developer.saplo.com/method/text-tags#"/>
+    <Prefix name="saref" IRI="https://w3id.org/saref#"/>
+    <Prefix name="schor" IRI="https://w3id.org/scholarlydata/role/"/>
+    <Prefix name="scovo" IRI="http://purl.org/NET/scovo#"/>
+    <Prefix name="shape" IRI="http://lubm.shacl.io/"/>
+    <Prefix name="story" IRI="http://www.example.org/story.owl#"/>
+    <Prefix name="swrla" IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"/>
+    <Prefix name="swrlb" IRI="http://www.w3.org/2003/11/swrlb#"/>
+    <Prefix name="swrlx" IRI="http://www.w3.org/2003/11/swrlx#"/>
+    <Prefix name="terms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="time2" IRI="http://purl.oclc.org/NET/muo/ucum/unit/time/"/>
+    <Prefix name="types" IRI="http://psi.egovpt.org/types/"/>
+    <Prefix name="tzont" IRI="http://www.w3.org/2006/timezone#"/>
+    <Prefix name="vCard" IRI="http://www.w3.org/2001/vcard-rdf/3.0#"/>
+    <Prefix name="value" IRI="https://onerecord.iata.org/Value#"/>
+    <Prefix name="vcard" IRI="http://www.w3.org/2006/vcard/ns#"/>
+    <Prefix name="vocab" IRI="http://localhost:2020/vocab/"/>
+    <Prefix name="xlink" IRI="http://www.w3.org/1999/xlink"/>
+    <Prefix name="xsl10" IRI="http://www.w3.org/XSL/Transform/1.0"/>
+    <Prefix name="xslwd" IRI="http://www.w3.org/TR/WD-xsl"/>
+    <Prefix name="yahoo" IRI="http://developer.yahoo.com/search/content/V2/contentAnalysis.html#"/>
+    <Prefix name="action" IRI="http://www.estrellaproject.org/lkif-core/action.owl#"/>
+    <Prefix name="arrest" IRI="http://osw2019.com/brichevg/arrest/"/>
+    <Prefix name="bqbiol" IRI="http://biomodels.net/biology-qualifiers/"/>
+    <Prefix name="branch" IRI="https://onerecord.iata.org/Branch#"/>
+    <Prefix name="chebi1" IRI="http://purl.obolibrary.org/obo/chebi#"/>
+    <Prefix name="chebi3" IRI="http://purl.obolibrary.org/obo/chebi#"/>
+    <Prefix name="chebi4" IRI="http://purl.obolibrary.org/obo/chebi#2"/>
+    <Prefix name="chebi5" IRI="http://purl.obolibrary.org/obo/chebi#3"/>
+    <Prefix name="chebi6" IRI="http://purl.obolibrary.org/obo/chebi#1"/>
+    <Prefix name="dcatap" IRI="http://data.europa.eu/r5r/"/>
+    <Prefix name="dctype" IRI="http://purl.org/dc/dcmitype/"/>
+    <Prefix name="demand" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/ontology/demand.owl#"/>
+    <Prefix name="edrive" IRI="http://www.festo.com/edrive#"/>
+    <Prefix name="family" IRI="http://www.semanticweb.org/mohammad/ontologies/2019/12/family#"/>
+    <Prefix name="hsapdv" IRI="http://purl.obolibrary.org/obo/hsapdv#"/>
+    <Prefix name="length" IRI="http://purl.oclc.org/NET/muo/ucum/unit/length/"/>
+    <Prefix name="object" IRI="http://www.mistea.supagro.inra.fr/object#"/>
+    <Prefix name="ogcgml" IRI="http://www.opengis.net/ont/gml#"/>
+    <Prefix name="ogcgsf" IRI="http://www.opengis.net/def/function/geosparql/"/>
+    <Prefix name="ogcgsr" IRI="http://www.opengis.net/def/rule/geosparql/"/>
+    <Prefix name="oldssn" IRI="http://purl.oclc.org/NET/ssnx/ssn#"/>
+    <Prefix name="ombibo" IRI="http://www.wurvoc.org/bibliography/om-2/"/>
+    <Prefix name="people" IRI="http://www.outreach.io/people#"/>
+    <Prefix name="person" IRI="https://onerecord.iata.org/Person#"/>
+    <Prefix name="prefix" IRI="http://purl.oclc.org/NET/muo/ucum/prefix/"/>
+    <Prefix name="ranges" IRI="https://onerecord.iata.org/Ranges#"/>
+    <Prefix name="rating" IRI="https://onerecord.iata.org/Rating#"/>
+    <Prefix name="ruleml" IRI="http://www.w3.org/2003/11/ruleml#"/>
+    <Prefix name="schema" IRI="http://schema.org/"/>
+    <Prefix name="sesame" IRI="http://www.openrdf.org/schema/sesame#"/>
+    <Prefix name="skosxl" IRI="http://www.w3.org/2008/05/skos-xl#"/>
+    <Prefix name="status" IRI="http://purl.org/ontology/bibo/status/"/>
+    <Prefix name="terms1" IRI="http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/terms/"/>
+    <Prefix name="ubprop" IRI="http://purl.obolibrary.org/obo/ubprop#"/>
+    <Prefix name="upwork" IRI="http://upwork.com/upwork#"/>
+    <Prefix name="victim" IRI="http://osw2019.com/brichevg/victim/"/>
+    <Prefix name="vienna" IRI="http://semtech.eliasladenburger.com/vienna#"/>
+    <Prefix name="w3cgeo" IRI="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    <Prefix name="address" IRI="https://onerecord.iata.org/Address#"/>
+    <Prefix name="arvalis" IRI="http://www.ontology.irstea.fr/arvalis/"/>
+    <Prefix name="booking" IRI="https://onerecord.iata.org/Booking#"/>
+    <Prefix name="bqmodel" IRI="http://biomodels.net/model-qualifiers/"/>
+    <Prefix name="collect" IRI="https://onerecord.iata.org/Collect#"/>
+    <Prefix name="company" IRI="https://onerecord.iata.org/Company#"/>
+    <Prefix name="contact" IRI="http://www.w3.org/2000/10/swap/pim/contact#"/>
+    <Prefix name="cooking" IRI="http://www.semanticweb.org/learningcooking/ontologies/2019/1/Cooking#"/>
+    <Prefix name="country" IRI="https://onerecord.iata.org/Country#"/>
+    <Prefix name="customs" IRI="https://onerecord.iata.org/Customs#"/>
+    <Prefix name="dbpedia" IRI="http://dbpedia.org/ontology/"/>
+    <Prefix name="dbpprop" IRI="http://dbpedia.org/property/"/>
+    <Prefix name="dcterms" IRI="http://purl.org/dc/terms/"/>
+    <Prefix name="demands" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example2/demands.rdf#"/>
+    <Prefix name="devices" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example2/5g_devices.rdf#"/>
+    <Prefix name="efrbroo" IRI="http://erlangen-crm.org/efrbroo/"/>
+    <Prefix name="esequip" IRI="http://vocab.linkeddata.es/datosabiertos/def/urbanismo-infraestructuras/equipamiento#"/>
+    <Prefix name="icom_ac" IRI="http://docs.oasis-open.org/ns/icom/accesscontrol/201008#"/>
+    <Prefix name="isoform" IRI="http://purl.uniprot.org/isoforms/"/>
+    <Prefix name="lexinfo" IRI="http://www.lexinfo.net/ontology/2.0/lexinfo#"/>
+    <Prefix name="license" IRI="http://www.ebi.ac.uk/swo/license/"/>
+    <Prefix name="old-ssn" IRI="http://purl.oclc.org/NET/ssnx/ssn#"/>
+    <Prefix name="ontolex" IRI="http://www.w3.org/ns/lemon/ontolex#"/>
+    <Prefix name="ontoneo" IRI="http://purl.obolibrary.org/obo/ontoneo/"/>
+    <Prefix name="open311" IRI="http://ontology.eil.utoronto.ca/open311#"/>
+    <Prefix name="owl2xml" IRI="http://www.w3.org/2006/12/owl2-xml#"/>
+    <Prefix name="prepaid" IRI="https://onerecord.iata.org/Prepaid#"/>
+    <Prefix name="process" IRI="http://www.estrellaproject.org/lkif-core/process.owl#"/>
+    <Prefix name="product" IRI="https://onerecord.iata.org/Product#"/>
+    <Prefix name="protege" IRI="http://protege.stanford.edu/plugins/owl/protege#"/>
+    <Prefix name="protseq" IRI="http://purl.org/science/protein/bysequence/"/>
+    <Prefix name="ratings" IRI="https://onerecord.iata.org/Ratings#"/>
+    <Prefix name="routing" IRI="https://onerecord.iata.org/Routing#"/>
+    <Prefix name="semtech" IRI="http://semtech.eliasladenburger.com/#"/>
+    <Prefix name="spatial" IRI="http://geovocab.org/spatial#"/>
+    <Prefix name="subsets" IRI="http://purl.obolibrary.org/obo/ro/subsets#"/>
+    <Prefix name="transit" IRI="http://vocab.org/transit/terms/"/>
+    <Prefix name="uniprot" IRI="http://purl.uniprot.org/core/"/>
+    <Prefix name="usdl-br" IRI="http://www.linked-usdl.org/ns/usdl-business-roles#"/>
+    <Prefix name="usdl-ir" IRI="http://www.linked-usdl.org/ns/usdl-interaction-roles#"/>
+    <Prefix name="usdl-it" IRI="http://www.linked-usdl.org/ns/usdl-interaction-types#"/>
+    <Prefix name="usdl-lr" IRI="http://www.linked-usdl.org/ns/usdl-liability-roles#"/>
+    <Prefix name="virtrdf" IRI="http://www.openlinksw.com/schemas/virtrdf#"/>
+    <Prefix name="waybill" IRI="https://onerecord.iata.org/Waybill#"/>
+    <Prefix name="xsl1999" IRI="http://www.w3.org/1999/XSL/Transform"/>
+    <Prefix name="zemanta" IRI="http://developer.zemanta.com/docs/entity_type/"/>
+    <Prefix name="GConsent" IRI="https://w3id.org/GConsent#"/>
+    <Prefix name="LConsent" IRI="https://www.datavillage.me/ontologies/LConsent#"/>
+    <Prefix name="carriage" IRI="https://onerecord.iata.org/Carriage#"/>
+    <Prefix name="cellline" IRI="http://www.ebi.ac.uk/cellline/"/>
+    <Prefix name="cidoccrm" IRI="http://purl.org/NET/cidoc-crm/core#"/>
+    <Prefix name="covid-19" IRI="http://www.semanticweb.org/kasun/ontologies/2020/3/covid-19#"/>
+    <Prefix name="dcmitype" IRI="http://purl.org/dc/dcmitype/"/>
+    <Prefix name="elements" IRI="http://www.geneontology.org/formats/oboInOwl#http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="focudata" IRI="http://focu.io/data#"/>
+    <Prefix name="fraction" IRI="http://purl.oclc.org/NET/muo/ucum/unit/fraction/"/>
+    <Prefix name="geonames" IRI="http://www.geonames.org/ontology/ontology_v3.1.rdf#"/>
+    <Prefix name="handling" IRI="https://onerecord.iata.org/Handling#"/>
+    <Prefix name="icom_cal" IRI="http://docs.oasis-open.org/ns/icom/calendar/201008#"/>
+    <Prefix name="icom_doc" IRI="http://docs.oasis-open.org/ns/icom/document/201008#"/>
+    <Prefix name="icom_msg" IRI="http://docs.oasis-open.org/ns/icom/message/201008#"/>
+    <Prefix name="icontact" IRI="http://ontology.eil.utoronto.ca/icontact.owl#"/>
+    <Prefix name="interval" IRI="http://reference.data.gov.uk/def/intervals/"/>
+    <Prefix name="iot-lite" IRI="http://purl.oclc.org/NET/UNIS/fiware/iot-lite#"/>
+    <Prefix name="location" IRI="https://onerecord.iata.org/Location#"/>
+    <Prefix name="mco-core" IRI="urn:mpeg:mpeg21:mco:core:2015#"/>
+    <Prefix name="metadata" IRI="http://data.bioontology.org/metadata/"/>
+    <Prefix name="mydomain" IRI="http://www.mydomain.org/my-rdf-ns"/>
+    <Prefix name="oboInOwl" IRI="http://www.geneontology.org/formats/oboInOwl#"/>
+    <Prefix name="ontology" IRI="http://www.semanticweb.org/ontologies/2013/12/ontology.owl#"/>
+    <Prefix name="otherOnt" IRI="http://example.org/otherOntologies/families/"/>
+    <Prefix name="owl11xml" IRI="http://www.w3.org/2006/12/owl11-xml#"/>
+    <Prefix name="patterns" IRI="http://www.co-ode.org/patterns#"/>
+    <Prefix name="pressure" IRI="http://purl.oclc.org/NET/muo/ucum/unit/pressure/"/>
+    <Prefix name="research" IRI="http://xmlns.com/foaf/0.1/"/>
+    <Prefix name="semitags" IRI="http://ner2.lmcloud.vse.cz/SemiTags/app/static/types#"/>
+    <Prefix name="semspect" IRI="http://derivo.de/semspect#"/>
+    <Prefix name="shipment" IRI="https://onerecord.iata.org/Shipment#"/>
+    <Prefix name="temporal" IRI="http://swrl.stanford.edu/ontologies/built-ins/3.3/temporal.owl#"/>
+    <Prefix name="timezone" IRI="http://www.w3.org/2006/timezone#"/>
+    <Prefix name="virtcxml" IRI="http://www.openlinksw.com/schemas/virtcxml#"/>
+    <Prefix name="wgs84pos" IRI="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    <Prefix name="wikidata" IRI="http://www.wikidata.org/entity/"/>
+    <Prefix name="wikimeta" IRI="http://www.wikimeta.com#"/>
+    <Prefix name="NCBITaxon" IRI="http://purl.obolibrary.org/obo/NCBITaxon#"/>
+    <Prefix name="archimate" IRI="http://bp4mc2.org/def/archimate#"/>
+    <Prefix name="beautiful" IRI="beautiful#"/>
+    <Prefix name="commodity" IRI="https://onerecord.iata.org/Commodity#"/>
+    <Prefix name="dmsgmeter" IRI="http://www.ontodata.xyz/ontologies/dmsgmeter#"/>
+    <Prefix name="extractiv" IRI="http://wiki.extractiv.com/w/page/29179775/Entity-Extraction#"/>
+    <Prefix name="icom_card" IRI="http://docs.oasis-open.org/ns/icom/contact/201008#"/>
+    <Prefix name="icom_conf" IRI="http://docs.oasis-open.org/ns/icom/conference/201008#"/>
+    <Prefix name="icom_core" IRI="http://docs.oasis-open.org/ns/icom/core/201008#"/>
+    <Prefix name="icom_meta" IRI="http://docs.oasis-open.org/ns/icom/metadata/201008#"/>
+    <Prefix name="icom_task" IRI="http://docs.oasis-open.org/ns/icom/task/201008#"/>
+    <Prefix name="idsc_auth" IRI="https://w3id.org/idsa/code/auth/"/>
+    <Prefix name="idsc_cert" IRI="https://w3id.org/idsa/code/certification/"/>
+    <Prefix name="idsc_prot" IRI="https://w3id.org/idsa/protocol/"/>
+    <Prefix name="insurance" IRI="https://onerecord.iata.org/Insurance#"/>
+    <Prefix name="interface" IRI="http://www.ebi.ac.uk/swo/interface/"/>
+    <Prefix name="ncbitaxon" IRI="http://purl.obolibrary.org/obo/ncbitaxon#"/>
+    <Prefix name="oboInOwl1" IRI="www.geneontology.org/formats/oboInOwl#"/>
+    <Prefix name="paradicms" IRI="http://www.paradicms.org/ns#"/>
+    <Prefix name="uniprotkb" IRI="https://www.uniprot.org/uniprot/"/>
+    <Prefix name="usdl-core" IRI="http://www.linked-usdl.org/ns/usdl-core#"/>
+    <Prefix name="vcard2006" IRI="http://www.w3.org/2006/vcard/ns#"/>
+    <Prefix name="wgs84_pos" IRI="http://www.w3.org/2003/01/geo/wgs84_pos#"/>
+    <Prefix name="5g_devices" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example2/compact/5g_devices.rdf#"/>
+    <Prefix name="Vocabulary" IRI="https://standards.oftrust.net/v2/Vocabulary/"/>
+    <Prefix name="airWaybill" IRI="https://onerecord.iata.org/AirWaybill#"/>
+    <Prefix name="alchemyapi" IRI="http://www.alchemyapi.com/api/entity/types.html#"/>
+    <Prefix name="aliexpress" IRI="aliexpress.com:"/>
+    <Prefix name="dimensions" IRI="https://onerecord.iata.org/Dimensions#"/>
+    <Prefix name="icom_forum" IRI="http://docs.oasis-open.org/ns/icom/forum/201008#"/>
+    <Prefix name="inventions" IRI="http://www.onto.org/inventions#"/>
+    <Prefix name="mohamedbah" IRI="http://www.semanticweb.org/mohamedbah#"/>
+    <Prefix name="mthreelite" IRI="http://purl.org/iot/vocab/m3-lite#"/>
+    <Prefix name="opencalais" IRI="http://www.opencalais.com/documentation/calais-web-service-api/api-metadata/entity-index-and-definitions#"/>
+    <Prefix name="otherParty" IRI="https://onerecord.iata.org/OtherParty#"/>
+    <Prefix name="parameters" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/ontology/parameters.owl#"/>
+    <Prefix name="production" IRI="https://onerecord.iata.org/Production#"/>
+    <Prefix name="recipesrdf" IRI="http://www.semanticweb.org/chris/ontologies/2019/1/Recipe#"/>
+    <Prefix name="saref4agri" IRI="https://w3id.org/def/saref4agri#"/>
+    <Prefix name="ssn-system" IRI="http://www.w3.org/ns/ssn/systems/"/>
+    <Prefix name="usdl-price" IRI="http://www.linked-usdl.org/ns/usdl-price#"/>
+    <Prefix name="vocabulary" IRI="http://www.opensilex.org/vocabulary/oeso#"/>
+    <Prefix name="webprotege" IRI="http://webprotege.stanford.edu/"/>
+    <Prefix name="FriOntology" IRI="urn:absolute:FriOntology#"/>
+    <Prefix name="ace_lexicon" IRI="http://attempto.ifi.uzh.ch/ace_lexicon#"/>
+    <Prefix name="aliexpress2" IRI="aliexpress.com:2"/>
+    <Prefix name="aliexpress3" IRI="aliexpress.com:3"/>
+    <Prefix name="aliexpress4" IRI="aliexpress.com:3.5"/>
+    <Prefix name="aliexpress5" IRI="aliexpress.com:4"/>
+    <Prefix name="customsInfo" IRI="https://onerecord.iata.org/CustomsInfo#"/>
+    <Prefix name="dbpedia-owl" IRI="http://dbpedia.org/ontology/"/>
+    <Prefix name="geolocation" IRI="https://onerecord.iata.org/Geolocation#"/>
+    <Prefix name="mydocuments" IRI="http://example.org/mydocuments/"/>
+    <Prefix name="otherCharge" IRI="https://onerecord.iata.org/OtherCharge#"/>
+    <Prefix name="plane-angle" IRI="http://purl.oclc.org/NET/muo/ucum/unit/plane-angle/"/>
+    <Prefix name="stakeholder" IRI="http://manusquare.project.eu/stakeholders/"/>
+    <Prefix name="temperature" IRI="http://purl.oclc.org/NET/muo/ucum/unit/temperature/"/>
+    <Prefix name="upworkModel" IRI="http://upwork.com/upworkModel#"/>
+    <Prefix name="contactOther" IRI="https://onerecord.iata.org/ContactOther#"/>
+    <Prefix name="cpu-unit-ext" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/ontology/cpu-unit-ext.owl#"/>
+    <Prefix name="dublincorens" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="houseWaybill" IRI="https://onerecord.iata.org/HouseWaybill#"/>
+    <Prefix name="icom_content" IRI="http://docs.oasis-open.org/ns/icom/content/201008#"/>
+    <Prefix name="organization" IRI="http://www.ebi.ac.uk/swo/organization/"/>
+    <Prefix name="owl-modeling" IRI="http://www.semanticweb.org/bernhard/ontologies/2019/10/owl-modeling#"/>
+    <Prefix name="quantitykind" IRI="http://qudt.org/vocab/quantitykind/"/>
+    <Prefix name="quoteRequest" IRI="https://onerecord.iata.org/QuoteRequest#"/>
+    <Prefix name="receivedFrom" IRI="https://onerecord.iata.org/ReceivedFrom#"/>
+    <Prefix name="routed_paths" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example2/routed_paths.rdf#"/>
+    <Prefix name="securityInfo" IRI="https://onerecord.iata.org/SecurityInfo#"/>
+    <Prefix name="test-rigDemo" IRI="http://www.semanticweb.org/kuegler/ontologies/2017/9/test-rigDemo#"/>
+    <Prefix name="WebSemProject" IRI="http://www.semanticweb.org/ontologies/WebSemProject#"/>
+    <Prefix name="base_ontology" IRI="http://www.onem2m.org/ontology/Base_Ontology/base_ontology#"/>
+    <Prefix name="bookingStatus" IRI="https://onerecord.iata.org/BookingStatus#"/>
+    <Prefix name="chargePayment" IRI="https://onerecord.iata.org/ChargePayment#"/>
+    <Prefix name="chargeSummary" IRI="https://onerecord.iata.org/ChargeSummary#"/>
+    <Prefix name="co2CalcMethod" IRI="https://onerecord.iata.org/CO2CalcMethod#"/>
+    <Prefix name="coronaviruses" IRI="http://coronaviruses.rdf#"/>
+    <Prefix name="icom_presence" IRI="http://docs.oasis-open.org/ns/icom/presence/201008#"/>
+    <Prefix name="packagingType" IRI="https://onerecord.iata.org/PackagingType#"/>
+    <Prefix name="pieceGrouping" IRI="https://onerecord.iata.org/PieceGrouping#"/>
+    <Prefix name="qudt-unit-1-1" IRI="http://qudt.org/vocab/unit#"/>
+    <Prefix name="quoteResponse" IRI="https://onerecord.iata.org/QuoteResponse#"/>
+    <Prefix name="bookingRequest" IRI="https://onerecord.iata.org/BookingRequest#"/>
+    <Prefix name="carrierProduct" IRI="https://onerecord.iata.org/CarrierProduct#"/>
+    <Prefix name="categorization" IRI="https://standards.oftrust.net/v2/Vocabulary/categorization/"/>
+    <Prefix name="characteristic" IRI="https://onerecord.iata.org/Characteristic#"/>
+    <Prefix name="dangerousGoods" IRI="https://onerecord.iata.org/DangerousGoods#"/>
+    <Prefix name="family_example" IRI="https://wiki.csc.calpoly.edu/OntologyTutorial/family_example.owl#"/>
+    <Prefix name="fhkb_chapter_2" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_2.owl#"/>
+    <Prefix name="fhkb_chapter_4" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_4.owl#"/>
+    <Prefix name="fhkb_chapter_5" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_5.owl#"/>
+    <Prefix name="fhkb_chapter_7" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_7.owl#"/>
+    <Prefix name="fhkb_chapter_9" IRI="http://mowl-power.cs.man.ac.uk/fhkbtutorial/ontology/fhkb_chapter_9.owl#"/>
+    <Prefix name="insect-anatomy" IRI="http://purl.obolibrary.org/obo/uberon/insect-anatomy#"/>
+    <Prefix name="routing-domain" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/ontology/routing-domain.owl#"/>
+    <Prefix name="securityStatus" IRI="https://onerecord.iata.org/SecurityStatus#"/>
+    <Prefix name="serviceRequest" IRI="https://onerecord.iata.org/ServiceRequest#"/>
+    <Prefix name="specialService" IRI="https://onerecord.iata.org/SpecialService#"/>
+    <Prefix name="transportMeans" IRI="https://onerecord.iata.org/TransportMeans#"/>
+    <Prefix name="usdl-agreement" IRI="http://www.linked-usdl.org/ns/usdl-agreement#"/>
+    <Prefix name="characteristics" IRI="https://onerecord.iata.org/Characteristics#"/>
+    <Prefix name="dbpediaontology" IRI="http://dbpedia.org/ontology/"/>
+    <Prefix name="otherIdentifier" IRI="https://onerecord.iata.org/OtherIdentifier#"/>
+    <Prefix name="specialHandling" IRI="https://onerecord.iata.org/SpecialHandling#"/>
+    <Prefix name="Alternative_Term" IRI="http://www.semanticweb.org/hamide/ontologies/2019/3/untitled-ontology-14#Alternative_Term,"/>
+    <Prefix name="capacity_example" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example2/capacity_example.rdf#"/>
+    <Prefix name="carrierSignature" IRI="https://onerecord.iata.org/CarrierSignature#"/>
+    <Prefix name="chromosome-parts" IRI="http://purl.obolibrary.org/obo/test/chromosome-parts#"/>
+    <Prefix name="collectionentity" IRI="http://www.ontologydesignpatterns.org/cp/owl/collectionentity.owl#"/>
+    <Prefix name="einsteins_riddle" IRI="http://persons.iis.nsk.su/files/persons/pages/einsteins_riddle.owl#"/>
+    <Prefix name="physical-quality" IRI="http://purl.oclc.org/NET/muo/ucum/physical-quality/"/>
+    <Prefix name="shipperSignature" IRI="https://onerecord.iata.org/ShipperSignature#"/>
+    <Prefix name="traffic-topology" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example3/ethernet-top/traffic-topology.rdf#"/>
+    <Prefix name="transportSegment" IRI="https://onerecord.iata.org/TransportSegment#"/>
+    <Prefix name="upworkOccupation" IRI="http://upwork.com/upworkOccupation#"/>
+    <Prefix name="volumetricWeight" IRI="https://onerecord.iata.org/VolumetricWeight#"/>
+    <Prefix name="chargeDeclaration" IRI="https://onerecord.iata.org/ChargeDeclaration#"/>
+    <Prefix name="chargeDescription" IRI="https://onerecord.iata.org/ChargeDescription#"/>
+    <Prefix name="ebsi-notarisation" IRI="http://www.semanticweb.org/ontologies/2020/2/ebsi-notarisation/1.0.0#"/>
+    <Prefix name="externalReference" IRI="https://onerecord.iata.org/ExternalReference#"/>
+    <Prefix name="sealing_device_v0" IRI="htpps://www.dropbox.com/home/Protege/sealing_device_v0##"/>
+    <Prefix name="transport_network" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example2/transport_network.rdf#"/>
+    <Prefix name="central-government" IRI="http://reference.data.gov.uk/def/central-government#"/>
+    <Prefix name="cpannotationschema" IRI="http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#"/>
+    <Prefix name="restaurantontology" IRI="http://example.org/RestaurantOntology.owl#"/>
+    <Prefix name="transport-topology" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example3/ethernet-top/transport-topology.rdf#"/>
+    <Prefix name="spatialDescriptions" IRI="http://publications.europa.eu/ontology/euvoc/spatialDescriptions#"/>
+    <Prefix name="untitled-ontology-2" IRI="http://www.semanticweb.org/x473936/ontologies/2020/0/untitled-ontology-2#"/>
+    <Prefix name="untitled-ontology-3" IRI="http://www.semanticweb.org/acer/ontologies/2020/3/untitled-ontology-3#"/>
+    <Prefix name="base_ontology-v0_9_0" IRI="http://www.onem2m.org/ontology/Base_Ontology/base_ontology-v0_9_0#"/>
+    <Prefix name="temporalDescriptions" IRI="http://publications.europa.eu/ontology/euvoc/temporalDescriptions#"/>
+    <Prefix name="untitled-ontology-11" IRI="http://www.semanticweb.org/erickantonio/ontologies/2020/0/untitled-ontology-11#"/>
+    <Prefix name="untitled-ontology-16" IRI="http://www.semanticweb.org/user/ontologies/2020/2/untitled-ontology-16#"/>
+    <Prefix name="untitled-ontology-17" IRI="http://www.semanticweb.org/debanjalibain/ontologies/2020/3/untitled-ontology-17#"/>
+    <Prefix name="untitled-ontology-75" IRI="http://www.semanticweb.org/kuegler/ontologies/2017/9/untitled-ontology-75#"/>
+    <Prefix name="untitled-ontology-83" IRI="http://www.semanticweb.org/dr.soniamehla/ontologies/2016/7/untitled-ontology-83#"/>
+    <Prefix name="inDestinationCurrency" IRI="https://onerecord.iata.org/InDestinationCurrency#"/>
+    <Prefix name="oKIG019UCNY0YUCMakmuV" IRI="http://webprotege.stanford.edu/project/7oKIG019UCNY0YUCMakmuV#"/>
+    <Prefix name="untitled-ontology-186" IRI="http://www.semanticweb.org/kainatansar/ontologies/2020/0/untitled-ontology-186#"/>
+    <Prefix name="visualization4ExtruOnt" IRI="http://bdi.si.ehu.es/bdi/ontologies/ExtruOnt/visualization4ExtruOnt#"/>
+    <Prefix name="otherCustomsInformation" IRI="https://onerecord.iata.org/OtherCustomsInformation#"/>
+    <Prefix name="home-activities-ontology" IRI="http://www.semanticweb.org/kass/ontologies/2020/0/home-activities-ontology#"/>
+    <Prefix name="reasonsForSecurityStatus" IRI="https://onerecord.iata.org/ReasonsForSecurityStatus#"/>
+    <Prefix name="premises-connect-topology" IRI="https://cntic10.hit.bme.hu/do/network_model/raw/master/examples/example3/ethernet-top/premises-connect-topology.rdf#"/>
+    <Prefix name="dto_vocabulary_kinase_domain" IRI="http://www.drugtargetontology.org/dto/dto_vocabulary_kinase_domain.owl#"/>
+    <Prefix name="dto_vocabulary_kinase_domain1" IRI="http://www.drugtargetontology.org/dto/dto_vocabulary_kinase_domain#"/>
+    <Prefix name="xml4e22437efefd433585f53052a456fc38" IRI="http://www.w3.org/XML/1998/namespace#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+        <Literal>Anushka Wakankar</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal xml:lang="en">undefined</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+        <Literal xml:lang="en">Data Structures and Algorithms</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AVLTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFSGraph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BPlusTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BSTTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinarySearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinaryTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/CircularLinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFSGraph"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DS_and_Algo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DoublyLinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Kruskals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearSearch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NDArray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NonLinearStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Prims"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Queue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RedBlackTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SegmentTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SinglyLinkedList"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SpanningTress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Stack"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Structures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SuffixTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TrieStructure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#1DArray"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#2DArray"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:creator"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="dc:title"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#algoType"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#madeUsing"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="#relatedTo"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AVLTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DS_and_Algo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFSGraph"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BPlusTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BSTTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinarySearch"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinaryTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/CircularLinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFSGraph"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DoublyLinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NonLinearStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NonLinearStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Kruskals"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SpanningTress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearSearch"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NDArray"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NonLinearStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Structures"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Prims"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SpanningTress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Queue"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RedBlackTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SegmentTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SinglyLinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SpanningTress"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Stack"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Structures"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DS_and_Algo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SuffixTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NonLinearStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TrieStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NonLinearStructure"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#1DArray"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#2DArray"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AVLTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BPlusTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AVLTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BSTTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AVLTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AVLTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinaryTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/AVLTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RedBlackTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Structures"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Queue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Stack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BPlusTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BSTTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BPlusTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BPlusTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinaryTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BPlusTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RedBlackTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BSTTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BSTTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinaryTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BSTTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RedBlackTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinaryTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RedBlackTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BinaryTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RedBlackTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/CircularLinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DoublyLinkedList"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/CircularLinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SinglyLinkedList"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DS_and_Algo"/>
+        <Class IRI="OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DS_and_Algo"/>
+        <Class IRI="OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece"/>
+        <Class IRI="OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DoublyLinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SinglyLinkedList"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapStructure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GraphStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TrieStructure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/HeapStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TrieStructure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinearStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NonLinearStructure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Queue"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Stack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NDArray"/>
+        <Class IRI="#1DArray"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/NDArray"/>
+        <Class IRI="#2DArray"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Queue"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Stack"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure"/>
+        <Class IRI="http://www.semanticweb.org/anushka/ontologies/2020/4/TrieStructure"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#1DArray"/>
+        <Class IRI="#2DArray"/>
+    </DisjointClasses>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/AVLTree</IRI>
+        <Literal xml:lang="en">AVLTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/AlgorithmTypes</IRI>
+        <Literal xml:lang="en">AlgorithmTypes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms</IRI>
+        <Literal xml:lang="en">Algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Algorithms</IRI>
+        <Literal xml:lang="iri-based">Algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays</IRI>
+        <Literal xml:lang="en">Arrays</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BFSGraph</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BFSGraph</IRI>
+        <Literal xml:lang="en">BFS Graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BFSGraph</IRI>
+        <Literal xml:lang="iri-based">BFSGraph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree</IRI>
+        <Literal xml:lang="en">BFS Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BFS_Tree</IRI>
+        <Literal xml:lang="iri-based">BFS_Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BPlusTree</IRI>
+        <Literal xml:lang="en">BPlusTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BSTTree</IRI>
+        <Literal xml:lang="en">BSTTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BTree</IRI>
+        <Literal xml:lang="en">BTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Backtracking</IRI>
+        <Literal xml:lang="en">Backtracking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BinarySearch</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BinarySearch</IRI>
+        <Literal xml:lang="en">Binary Search</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BinarySearch</IRI>
+        <Literal xml:lang="iri-based">BinarySearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BinaryTree</IRI>
+        <Literal xml:lang="en">BinaryTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce</IRI>
+        <Literal xml:lang="en">BruteForce</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort</IRI>
+        <Literal xml:lang="en">Bubble Sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BubbleSort</IRI>
+        <Literal xml:lang="iri-based">BubbleSort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort</IRI>
+        <Literal xml:lang="en">Bucket Sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BucketSort</IRI>
+        <Literal xml:lang="iri-based">BucketSort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/CircularLinkedList</IRI>
+        <Literal xml:lang="en">CircularLinkedList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DFSGraph</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DFSGraph</IRI>
+        <Literal xml:lang="en">DFS Graph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DFSGraph</IRI>
+        <Literal xml:lang="iri-based">DFSGraph</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree</IRI>
+        <Literal xml:lang="en">DFS Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DFS_Tree</IRI>
+        <Literal xml:lang="iri-based">DFS_Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DS_and_Algo</IRI>
+        <Literal xml:lang="iri-based">DS_and_Algo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DS_and_Algo</IRI>
+        <Literal xml:lang="en">http://www.semanticweb.org/anushka/ontologies/2020/4/Data-Structures-1</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece</IRI>
+        <Literal xml:lang="iri-based">Data-Structures-1OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece</IRI>
+        <Literal xml:lang="iri-based">OWLClass_6f8c4ac9_8343_467f_8165_5b2950be5ece</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5</IRI>
+        <Literal xml:lang="iri-based">Data-Structures-1OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5</IRI>
+        <Literal xml:lang="iri-based">OWLClass_9c102c9e_dde5_4ebd_96a3_7059255274f5</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree</IRI>
+        <Literal xml:lang="en">Deletion Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DeletionTree</IRI>
+        <Literal xml:lang="iri-based">DeletionTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer</IRI>
+        <Literal xml:lang="en">DivideAndConquer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DoublyLinkedList</IRI>
+        <Literal xml:lang="en">DoublyLinkedList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming</IRI>
+        <Literal xml:lang="en">Dynamic</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DynamicProgramming</IRI>
+        <Literal xml:lang="iri-based">DynamicProgramming</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#relatedTo"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GraphStructure</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms</IRI>
+        <Literal xml:lang="en">Graph Algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GraphAlgorithms</IRI>
+        <Literal xml:lang="iri-based">GraphAlgorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#madeUsing"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GraphStructure</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GraphStructure</IRI>
+        <Literal xml:lang="en">GraphStructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo</IRI>
+        <Literal xml:lang="en">GreedyAlgo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#relatedTo"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/HeapStructure</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort</IRI>
+        <Literal xml:lang="en">Heap Sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/HeapSort</IRI>
+        <Literal xml:lang="iri-based">HeapSort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#madeUsing"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/HeapStructure</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/HeapStructure</IRI>
+        <Literal xml:lang="en">HeapStructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree</IRI>
+        <Literal xml:lang="en">Insertion tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/InsertionTree</IRI>
+        <Literal xml:lang="iri-based">InsertionTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Kruskals</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Kruskals</IRI>
+        <Literal xml:lang="en">Kruskals</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinearSearch</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/BruteForce</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinearSearch</IRI>
+        <Literal xml:lang="en">Linear Search</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinearSearch</IRI>
+        <Literal xml:lang="iri-based">LinearSearch</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinearStructure</IRI>
+        <Literal xml:lang="en">LinearStructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList</IRI>
+        <Literal xml:lang="en">LinkedList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/DivideAndConquer</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort</IRI>
+        <Literal xml:lang="en">Merge Sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/MergeSort</IRI>
+        <Literal xml:lang="iri-based">MergeSort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/NDArray</IRI>
+        <Literal xml:lang="en">NDArray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/NonLinearStructure</IRI>
+        <Literal xml:lang="en">NonLinearStructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#algoType"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Prims</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/GreedyAlgo</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Prims</IRI>
+        <Literal xml:lang="en">Prims</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#madeUsing"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Queue</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#madeUsing"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Queue</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Queue</IRI>
+        <Literal xml:lang="en">Queue</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort</IRI>
+        <Literal xml:lang="en">Quick Sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/QuickSort</IRI>
+        <Literal xml:lang="iri-based">QuickSort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/RandomizedAlgo</IRI>
+        <Literal xml:lang="en">RandomizedAlgo</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Recursion</IRI>
+        <Literal xml:lang="en">Recursion</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/RedBlackTree</IRI>
+        <Literal xml:lang="en">RedBlackTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree</IRI>
+        <Literal xml:lang="iri-based">Data-Structures-1RotationTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree</IRI>
+        <Literal xml:lang="en">Rotation Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/RotationTree</IRI>
+        <Literal xml:lang="iri-based">RotationTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#relatedTo"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms</IRI>
+        <Literal xml:lang="en">Searching Algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SearchingAlgorithms</IRI>
+        <Literal xml:lang="iri-based">SearchingAlgorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SegmentTree</IRI>
+        <Literal xml:lang="iri-based">SegmentTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort</IRI>
+        <Literal xml:lang="en">Selection Sort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SelectionSort</IRI>
+        <Literal xml:lang="iri-based">SelectionSort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SinglyLinkedList</IRI>
+        <Literal xml:lang="en">SinglyLinkedList</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#relatedTo"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms</IRI>
+        <Literal xml:lang="en">Sorting Algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SortingAlgorithms</IRI>
+        <Literal xml:lang="iri-based">SortingAlgorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SpanningTress</IRI>
+        <Literal xml:lang="en">Spanning Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SpanningTress</IRI>
+        <Literal xml:lang="iri-based">SpanningTress</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#madeUsing"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Stack</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Arrays</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#madeUsing"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Stack</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Stack</IRI>
+        <Literal xml:lang="en">Stack</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/Structures</IRI>
+        <Literal xml:lang="en">Structures</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/SuffixTree</IRI>
+        <Literal xml:lang="iri-based">SuffixTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree</IRI>
+        <Literal xml:lang="en">Traversal Tree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TraversalTree</IRI>
+        <Literal xml:lang="iri-based">TraversalTree</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#relatedTo"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms</IRI>
+        <Literal xml:lang="en">Tree Algorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TreeAlgorithms</IRI>
+        <Literal xml:lang="iri-based">TreeAlgorithms</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#madeUsing"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TreeStructure</IRI>
+        <Literal xml:lang="en">TreeStructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="#madeUsing"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TrieStructure</IRI>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/LinkedList</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/anushka/ontologies/2020/4/TrieStructure</IRI>
+        <Literal xml:lang="en">TrieStructure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#1DArray</IRI>
+        <Literal xml:lang="iri-based">1DArray</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#2DArray</IRI>
+        <Literal xml:lang="iri-based">2DArray</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
